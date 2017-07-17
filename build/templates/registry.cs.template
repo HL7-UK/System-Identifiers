@@ -1,0 +1,38 @@
+// Generated at {{meta.date}}
+
+namespace org.uk.hl7.fhir
+{
+    public static class Registry
+    {
+        {{#domain}}
+        public static class {{name}}
+        {
+            public static class Code
+            {
+                {{#code}}
+                /// <summary>
+                /// {{description}}
+                /// </summary>
+                public const string {{name}} = "{{{url}}}";
+
+                {{/code}}
+                {{^code}}//None defined{{/code}}
+            }
+
+            public static class Identifier
+            {
+                {{#identifier}}
+                /// <summary>
+               /// {{description}}
+                /// </summary>
+                public const string {{name}} = "{{{url}}}";
+
+                {{/identifier}}
+                {{^identifier}}//None defined{{/identifier}}
+            }
+        }
+        {{/domain}}
+    }
+}
+
+// org.uk.hl7.fhir::system.cs, {{meta.copyright}}

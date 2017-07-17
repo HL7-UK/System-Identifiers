@@ -1,0 +1,12 @@
+{
+  "name": "@hl7-uk/fhir-registry",
+  "description": "{{meta.description}}",
+  "keywords": ["HL7","HL7 UK","FHIR","NHS"],
+  "version": "{{meta.version}}",
+  "license": "Apache-2.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HL7-UK/System-Identifiers.git"
+  }
+}

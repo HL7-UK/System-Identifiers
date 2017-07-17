@@ -1,0 +1,60 @@
+{
+  "domain": [
+    {
+      "name": "International",
+      "code": [
+        {
+          "name": "SNOMED_CT",
+          "url": "http://snomed.info/sct",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Uk",
+      "code": [
+        {
+          "name": "READ_V2",
+          "url": "http://read.info/readv2",
+          "description": ""
+        },
+        {
+          "name": "READ_CTV3",
+          "url": "http://read.info/ctv3",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Nhs",
+      "identifier": [
+        {
+          "name": "NHS_NUMBER",
+          "url": "http://fhir.nhs.net/Id/nhs-number",
+          "description": "The NHS Number identifier for a patient"
+        },
+        {
+          "name": "ODS_ORGANIZATION_CODE",
+          "url": "http://fhir.nhs.net/Id/ods-organization-code",
+          "description": "ODS code to identify the organisation at organisation level"
+        },
+        {
+          "name": "ODS_SITE_CODE",
+          "url": "http://fhir.nhs.net/Id/ods-site-code",
+          "description": "ODS Site code to identify the organisation at site level"
+        },
+        {
+          "name": "SDS_USER_ID",
+          "url": "http://fhir.nhs.net/Id/sds-user-id",
+          "description": "The SDS identifier that uniquely identifies the person as this agent"
+        },
+        {
+          "name": "SDS_ROLE_PROFILE_ID",
+          "url": "http://fhir.nhs.net/Id/sds-role-profile-id",
+          "description": "The SDS identifier that uniquely identifies the role profile of the person as this agent"
+        }
+      ]
+    }
+  ]
+}
+

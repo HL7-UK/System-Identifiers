@@ -1,0 +1,26 @@
+// Generated at {{meta.date}}
+
+module.exports = {
+ {{#domain}}
+    {{name}}: {
+        code: {
+            {{#code}}
+            /// {{description}}
+            {{name}}: "{{{url}}}"{{^last}},{{/last}}
+
+            {{/code}}
+            {{^code}}//None defined{{/code}}
+        },
+        identifier: {
+            {{#identifier}}
+            /// {{description}}
+            {{name}}: "{{{url}}}"{{^last}},{{/last}}
+
+            {{/identifier}}
+            {{^identifier}}//None defined{{/identifier}}
+        }
+    }
+    {{/domain}}
+};
+
+// org.uk.hl7.fhir::system.js, {{meta.copyright}}
