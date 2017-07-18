@@ -1,5 +1,5 @@
-// Generated at {{meta.date}}
-
+// {{meta.name}}, {{meta.copyright}}
+// Generated {{meta.date}}
 module.exports = {
  {{#domain}}
     {{name}}: {

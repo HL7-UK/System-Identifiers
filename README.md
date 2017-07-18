@@ -1,63 +1,61 @@
-# System-Identifiers
+# HL7 UK FHIR Registry
 This repository documents identifiers for terminology and identifier systems within the UK health domain.
 These are used by implementors of the HL7® FHIR® interoperability standard.
 
-## National and NHS identifiers
-These system identifiers have been agreed with the UK Terminology Centre.
+National and NHS identifiers have been agreed with the UK Terminology Centre.
 These identifiers are used within national specifications and are recommended for use within local implementations.
 
+The registry is available in variety of formats:
+- XML
+- CSV
+- JS
+- C#
 
-# International
-## Terminology systems
+# List
+
+## International
+### Terminology systems
 
 url | description | name
 ----|-------------|-----
 http://snomed.info/sct | SNOMED CT | SNOMED_CT
 
 
-
-## Identifier systems
+### Identifier systems
 
 url | description | name
 ----|-------------|-----
 None defined
-# Uk
-## Terminology systems
+## Uk
+### Terminology systems
 
 url | description | name
 ----|-------------|-----
 http://read.info/readv2 | Read Codes version 2 | READ_V2
-
 http://read.info/ctv3 | Read Codes version 3 | READ_CTV3
 
 
-
-## Identifier systems
-
-url | description | name
-----|-------------|-----
-None defined
-# Nhs
-## Terminology systems
+### Identifier systems
 
 url | description | name
 ----|-------------|-----
 None defined
+## Nhs
+### Terminology systems
 
-## Identifier systems
+url | description | name
+----|-------------|-----
+None defined
+
+### Identifier systems
 
 url | description | name
 ----|-------------|-----
 http://fhir.nhs.net/Id/nhs-number | The NHS Number identifier for a patient | NHS_NUMBER
-
 http://fhir.nhs.net/Id/ods-organization-code | ODS code to identify the organisation at organisation level | ODS_ORGANIZATION_CODE
-
 http://fhir.nhs.net/Id/ods-site-code | ODS Site code to identify the organisation at site level | ODS_SITE_CODE
-
 http://fhir.nhs.net/Id/sds-user-id | The SDS identifier that uniquely identifies the person as this agent | SDS_USER_ID
-
 http://fhir.nhs.net/Id/sds-role-profile-id | The SDS identifier that uniquely identifies the role profile of the person as this agent | SDS_ROLE_PROFILE_ID
-
 
 
 ## Contributions
@@ -88,4 +86,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](www.blackpear.com)
 
--- Generated at Tue Jul 18 2017 12:22:14 GMT+0100 (BST)
+-- Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST)

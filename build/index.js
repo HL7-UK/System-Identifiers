@@ -1,8 +1,8 @@
-var model = require('../registry-master.json');
 var handlebars = require('handlebars');
 var fs = require('fs');
 
 //decorate model and arrays
+var model = require('../registry-master.json');
 model.meta = require('../registry-metadata.json');
 model.meta.date = new Date();
 
@@ -60,6 +60,10 @@ var transform = [
     {
         template: __dirname + '/templates/README.md.template',
         output: __dirname + '/../README.md'
+    },
+    {
+        template: __dirname + '/templates/xml/registry.xml.template',
+        output: __dirname + '/../xml/registry.xml'
     },
     {
         template: __dirname + '/templates/csv/registry.csv.template',

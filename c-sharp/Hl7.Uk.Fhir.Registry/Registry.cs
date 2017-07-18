@@ -1,5 +1,5 @@
-// Generated at Tue Jul 18 2017 12:22:14 GMT+0100 (BST)
-
+// HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
+// Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -83,4 +83,3 @@ namespace Hl7.Uk.Fhir.Registry
     }
 }
 
-// org.uk.hl7.fhir.registry::Registry.cs, Copyright © 2016+ HL7 UK

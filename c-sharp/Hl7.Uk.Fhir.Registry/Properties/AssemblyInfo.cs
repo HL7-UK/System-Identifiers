@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿// HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
+// Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST)
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
@@ -31,5 +33,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.1.0")]
-[assembly: AssemblyFileVersion("0.0.1.0")]
+[assembly: AssemblyVersion("0.0.1.*")]
+[assembly: AssemblyFileVersion("0.0.1.*")]

@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
+<!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
+<!-- Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST) -->
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
@@ -12,7 +14,7 @@
 
         <!-- Owners are typically nuget.org identities that allow gallery
                 users to easily find other packages by the same owners.  -->
-        <owners>hl7.org.uk</owners>
+        <owners>HL7 UK</owners>
 
         <!-- License and project URLs provide links for the gallery -->
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>

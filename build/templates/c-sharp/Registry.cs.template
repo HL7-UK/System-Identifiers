@@ -1,5 +1,5 @@
-// Generated at {{meta.date}}
-
+// {{meta.name}}, {{meta.copyright}}
+// Generated {{meta.date}}
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -35,4 +35,3 @@ namespace Hl7.Uk.Fhir.Registry
     }
 }
 
-// org.uk.hl7.fhir.registry::Registry.cs, {{meta.copyright}}

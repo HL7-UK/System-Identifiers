@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
+<!-- {{meta.name}}, {{meta.copyright}} -->
+<!-- Generated {{meta.date}} -->
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
-        <id>HL7 UK FHIR Registry</id>
+        <id>{{meta.name}}</id>
 
         <!-- The package version number that is used when resolving dependencies -->
         <version>{{meta.version}}</version>
@@ -12,14 +14,14 @@
 
         <!-- Owners are typically nuget.org identities that allow gallery
                 users to easily find other packages by the same owners.  -->
-        <owners>hl7.org.uk</owners>
+        <owners>HL7 UK</owners>
 
         <!-- License and project URLs provide links for the gallery -->
         <licenseUrl>{{{meta.license.url}}}</licenseUrl>
         <projectUrl>{{{meta.repo.url}}}</projectUrl>
 
         <!-- The icon is used in Visual Studio's package manager UI -->
-        <iconUrl>https://avatars0.githubusercontent.com/u/20111211</iconUrl>
+        <iconUrl>{{meta.icon}}</iconUrl>
 
         <!-- If true, this value prompts the user to accept the license when
                 installing the package. -->

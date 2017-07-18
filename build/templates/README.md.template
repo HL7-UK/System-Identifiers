@@ -1,31 +1,35 @@
-# System-Identifiers
+# {{meta.name}}
 This repository documents identifiers for terminology and identifier systems within the UK health domain.
 These are used by implementors of the HL7® FHIR® interoperability standard.
 
-## National and NHS identifiers
-These system identifiers have been agreed with the UK Terminology Centre.
+National and NHS identifiers have been agreed with the UK Terminology Centre.
 These identifiers are used within national specifications and are recommended for use within local implementations.
 
+The registry is available in variety of formats:
+- XML
+- CSV
+- JS
+- C#
+
+# List
 
 {{#domain}}
-# {{name}}
-## Terminology systems
+## {{name}}
+### Terminology systems
 
 url | description | name
 ----|-------------|-----
 {{#terminology}}
 {{{url}}} | {{description}} | {{name}}
-
 {{/terminology}}
 {{^terminology}}None defined{{/terminology}}
 
-## Identifier systems
+### Identifier systems
 
 url | description | name
 ----|-------------|-----
 {{#identifier}}
 {{{url}}} | {{description}} | {{name}}
-
 {{/identifier}}
 {{^identifier}}None defined{{/identifier}}
 {{/domain}}
@@ -58,4 +62,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](www.blackpear.com)
 
--- Generated at {{meta.date}}
+-- Generated {{meta.date}}
