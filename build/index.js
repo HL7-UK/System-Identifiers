@@ -1,35 +1,62 @@
-var model = require('../registry.json');
+var model = require('../registry-master.json');
 var mustache = require('mustache');
 var fs = require('fs');
 
-//decorate mode/
+//decorate model and arrays
 model.meta = {
     date: new Date(),
     copyright: 'Copyright © 2016+ HL7 UK',
     version: '0.0.1',
     description: 'HL7 UK FHIR system identifier registry',
-    keywords: ['HL7', 'HL7 UK', 'FHIR', 'NHS']
+    keywords: ['HL7', 'UK', 'FHIR', 'NHS'],
+    license: {
+        name: 'Apache-2.0',
+        url: 'http://www.apache.org/licenses/LICENSE-2.0'
+    },
+    repo: {
+        type: 'git',
+        url: 'https://github.com/HL7-UK/System-Identifiers.git'
+    }
 };
 
-model.domain.forEach(function(domain){
-    function decorateArray(a){
-        if (a){
-            a[a.length - 1].last = true;
-        }
+function coerceStringValueToObject(s){
+    return {
+        value: s
     }
+}
 
-    decorateArray(domain.code);
+function decorateArray(a){
+    if (a){
+        a.forEach(function(obj, i){
+
+            obj.last = false;
+            if (i == a.length - 1){
+                obj.last = true;
+            }
+        });
+    }
+}
+
+model.meta.keywords = model.meta.keywords.map(coerceStringValueToObject);
+decorateArray(model.meta.keywords);
+decorateArray(model.domain);
+model.domain.forEach(function(domain){
+    decorateArray(domain.terminology);
     decorateArray(domain.identifier);
- });
+});
 
 //define transforms
 var transform = [
     {
-        template: __dirname + '/templates/registry.cs.template',
-        output: __dirname + '/../c-sharp/registry.cs'
+        template: __dirname + '/templates/Registry.cs.template',
+        output: __dirname + '/../c-sharp/org.uk.hl7.fhir.registry/Registry.cs'
     },
     {
-        template: __dirname + '/templates/registry.js.template',
+        template: __dirname + '/templates/Registry.nuspec.template',
+        output: __dirname + '/../c-sharp/org.uk.hl7.fhir.registry/HL7 UK FHIR Registry.nuspec'
+    },
+    {
+        template: __dirname + '/templates/index.js.template',
         output: __dirname + '/../js/index.js'
     },
     {
@@ -37,8 +64,8 @@ var transform = [
         output: __dirname + '/../js/package.json'
     },
     {
-        template: __dirname + '/templates/system.md.template',
-        output: __dirname + '/../registry.md'
+        template: __dirname + '/templates/README.md.template',
+        output: __dirname + '/../README.md'
     }
 ];
 

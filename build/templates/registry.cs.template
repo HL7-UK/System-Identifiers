@@ -1,22 +1,22 @@
 // Generated at {{meta.date}}
 
-namespace org.uk.hl7.fhir
+namespace org.uk.hl7.fhir.registry
 {
     public static class Registry
     {
         {{#domain}}
         public static class {{name}}
         {
-            public static class Code
+            public static class Terminology
             {
-                {{#code}}
+                {{#terminology}}
                 /// <summary>
                 /// {{description}}
                 /// </summary>
                 public const string {{name}} = "{{{url}}}";
 
-                {{/code}}
-                {{^code}}//None defined{{/code}}
+                {{/terminology}}
+                {{^terminology}}//None defined{{/terminology}}
             }
 
             public static class Identifier
@@ -35,4 +35,4 @@ namespace org.uk.hl7.fhir
     }
 }
 
-// org.uk.hl7.fhir::system.cs, {{meta.copyright}}
+// org.uk.hl7.fhir.registry::Registry.cs, {{meta.copyright}}

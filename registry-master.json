@@ -2,26 +2,26 @@
   "domain": [
     {
       "name": "International",
-      "code": [
+      "terminology": [
         {
           "name": "SNOMED_CT",
           "url": "http://snomed.info/sct",
-          "description": ""
+          "description": "SNOMED CT"
         }
       ]
     },
     {
       "name": "Uk",
-      "code": [
+      "terminology": [
         {
           "name": "READ_V2",
           "url": "http://read.info/readv2",
-          "description": ""
+          "description": "Read Codes version 2"
         },
         {
           "name": "READ_CTV3",
           "url": "http://read.info/ctv3",
-          "description": ""
+          "description": "Read Codes version 3"
         }
       ]
     },

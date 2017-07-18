@@ -3,24 +3,24 @@
 module.exports = {
  {{#domain}}
     {{name}}: {
-        code: {
-            {{#code}}
-            /// {{description}}
+        terminology: {
+            {{#terminology}}
+            // {{description}}
             {{name}}: "{{{url}}}"{{^last}},{{/last}}
 
-            {{/code}}
-            {{^code}}//None defined{{/code}}
+            {{/terminology}}
+            {{^terminology}}//None defined{{/terminology}}
         },
         identifier: {
             {{#identifier}}
-            /// {{description}}
+            // {{description}}
             {{name}}: "{{{url}}}"{{^last}},{{/last}}
 
             {{/identifier}}
             {{^identifier}}//None defined{{/identifier}}
         }
-    }
+    }{{^last}},{{/last}}
     {{/domain}}
 };
 
-// org.uk.hl7.fhir::system.js, {{meta.copyright}}
+// hl7uk-fhir-registry::index.js, {{meta.copyright}}

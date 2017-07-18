@@ -1,15 +1,15 @@
-// Generated at Mon Jul 17 2017 21:17:09 GMT+0100 (BST)
+// Generated at Tue Jul 18 2017 10:34:38 GMT+0100 (BST)
 
-namespace org.uk.hl7.fhir
+namespace org.uk.hl7.fhir.registry
 {
     public static class Registry
     {
         public static class International
         {
-            public static class Code
+            public static class Terminology
             {
                 /// <summary>
-                /// 
+                /// SNOMED CT
                 /// </summary>
                 public const string SNOMED_CT = "http://snomed.info/sct";
 
@@ -23,15 +23,15 @@ namespace org.uk.hl7.fhir
         }
         public static class Uk
         {
-            public static class Code
+            public static class Terminology
             {
                 /// <summary>
-                /// 
+                /// Read Codes version 2
                 /// </summary>
                 public const string READ_V2 = "http://read.info/readv2";
 
                 /// <summary>
-                /// 
+                /// Read Codes version 3
                 /// </summary>
                 public const string READ_CTV3 = "http://read.info/ctv3";
 
@@ -45,7 +45,7 @@ namespace org.uk.hl7.fhir
         }
         public static class Nhs
         {
-            public static class Code
+            public static class Terminology
             {
                 //None defined
             }
@@ -83,4 +83,4 @@ namespace org.uk.hl7.fhir
     }
 }
 
-// org.uk.hl7.fhir::system.cs, Copyright © 2016+ HL7 UK
+// org.uk.hl7.fhir.registry::Registry.cs, Copyright © 2016+ HL7 UK
