@@ -84,6 +84,6 @@ The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy 
 HL7 and FHIR are registered trademarks of Health Level Seven International
 
 ## Acknowledgements
-Supported by [Black Pear Software](www.blackpear.com)
+Supported by [Black Pear Software](https://www.blackpear.com)
 
 -- Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST)
