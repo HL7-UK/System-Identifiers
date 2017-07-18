@@ -5,6 +5,6 @@
     "Dunmail Hodkinson <dunmail@blackpear.com> (https://www.blackpear.com/)"
   ],
   "dependencies": {
-    "mustache": "^2.3.0"
+    "handlebars": "^4.0.10"
   }
 }

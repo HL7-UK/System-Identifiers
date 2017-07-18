@@ -1,5 +1,5 @@
 var model = require('../registry-master.json');
-var mustache = require('mustache');
+var handlebars = require('handlebars');
 var fs = require('fs');
 
 //decorate model and arrays
@@ -60,6 +60,10 @@ var transform = [
     {
         template: __dirname + '/templates/README.md.template',
         output: __dirname + '/../README.md'
+    },
+    {
+        template: __dirname + '/templates/csv/registry.csv.template',
+        output: __dirname + '/../csv/registry.csv'
     }
 ];
 
@@ -67,7 +71,9 @@ var transform = [
 transform.forEach(function (transform) {
     var template = fs.readFileSync(transform.template, {encoding: 'utf8'});
 
-    var implementation = mustache.render(template, model);
+    var compiledTemplate = handlebars.compile(template);
+
+    var implementation = compiledTemplate(model);
 
     fs.writeFileSync(transform.output, implementation);
 });
