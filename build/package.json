@@ -1,6 +1,9 @@
 {
   "name": "hl7uk-fhir-registry-build",
   "version": "0.0.1",
+  "contributors": [
+    "Dunmail Hodkinson <dunmail@blackpear.com> (https://www.blackpear.com/)"
+  ],
   "dependencies": {
     "mustache": "^2.3.0"
   }
