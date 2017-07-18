@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "hl7uk-fhir-registry-build",
   "version": "0.0.1",
   "dependencies": {
     "mustache": "^2.3.0"

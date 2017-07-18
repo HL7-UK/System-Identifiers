@@ -3,21 +3,8 @@ var mustache = require('mustache');
 var fs = require('fs');
 
 //decorate model and arrays
-model.meta = {
-    date: new Date(),
-    copyright: 'Copyright © 2016+ HL7 UK',
-    version: '0.0.1',
-    description: 'HL7 UK FHIR system identifier registry',
-    keywords: ['HL7', 'UK', 'FHIR', 'NHS'],
-    license: {
-        name: 'Apache-2.0',
-        url: 'http://www.apache.org/licenses/LICENSE-2.0'
-    },
-    repo: {
-        type: 'git',
-        url: 'https://github.com/HL7-UK/System-Identifiers.git'
-    }
-};
+model.meta = require('../registry-metadata.json');
+model.meta.date = new Date();
 
 function coerceStringValueToObject(s){
     return {
