@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST)
+// Generated Tue Jul 18 2017 13:33:08 GMT+0100 (BST)
 module.exports = {
     International: {
         terminology: {

@@ -5,13 +5,13 @@ These are used by implementors of the HL7® FHIR® interoperability standard.
 National and NHS identifiers have been agreed with the UK Terminology Centre.
 These identifiers are used within national specifications and are recommended for use within local implementations.
 
-The registry is available in variety of formats:
+The registry is also available in variety of computable formats to support implementors:
 - XML
 - CSV
-- JS
-- C#
+- JS (as a NodeJS module)
+- C# (as an assembly)
 
-# List
+# Registry
 
 ## International
 ### Terminology systems
@@ -84,6 +84,6 @@ The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy 
 HL7 and FHIR are registered trademarks of Health Level Seven International
 
 ## Acknowledgements
-Supported by [Black Pear Software](www.blackpear.com)
+Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Tue Jul 18 2017 13:19:57 GMT+0100 (BST)
+-- Generated Tue Jul 18 2017 13:33:08 GMT+0100 (BST)
