@@ -8,5 +8,6 @@
   "repository": {
     "type": "{{meta.repo.type}}",
     "url": "{{{meta.repo.url}}}"
-  }
+  },
+  "contributors": [{{#meta.contributors}}"{{{value}}}"{{^last}},{{/last}}{{/meta.contributors}}]
 }

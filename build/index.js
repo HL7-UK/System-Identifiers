@@ -25,7 +25,10 @@ function decorateArray(a){
 }
 
 model.meta.keywords = model.meta.keywords.map(coerceStringValueToObject);
+model.meta.contributors = model.meta.contributors.map(coerceStringValueToObject);
+
 decorateArray(model.meta.keywords);
+decorateArray(model.meta.contributors);
 decorateArray(model.domain);
 model.domain.forEach(function(domain){
     decorateArray(domain.terminology);
