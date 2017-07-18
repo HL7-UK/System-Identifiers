@@ -1,6 +1,6 @@
 // Generated at {{meta.date}}
 
-namespace org.uk.hl7.fhir.registry
+namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
     {

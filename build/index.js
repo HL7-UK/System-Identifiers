@@ -38,19 +38,23 @@ model.domain.forEach(function(domain){
 //define transforms
 var transform = [
     {
-        template: __dirname + '/templates/Registry.cs.template',
-        output: __dirname + '/../c-sharp/org.uk.hl7.fhir.registry/Registry.cs'
+        template: __dirname + '/templates/c-sharp/Registry.cs.template',
+        output: __dirname + '/../c-sharp/Hl7.Uk.Fhir.Registry/Registry.cs'
     },
     {
-        template: __dirname + '/templates/Registry.nuspec.template',
-        output: __dirname + '/../c-sharp/org.uk.hl7.fhir.registry/HL7 UK FHIR Registry.nuspec'
+        template: __dirname + '/templates/c-sharp/Registry.nuspec.template',
+        output: __dirname + '/../c-sharp/Hl7.Uk.Fhir.Registry/Hl7.Uk.Fhir.Registry.nuspec'
     },
     {
-        template: __dirname + '/templates/index.js.template',
+        template: __dirname + '/templates/c-sharp/AssemblyInfo.cs.template',
+        output: __dirname + '/../c-sharp/Hl7.Uk.Fhir.Registry/Properties/AssemblyInfo.cs'
+    },
+    {
+        template: __dirname + '/templates/js/index.js.template',
         output: __dirname + '/../js/index.js'
     },
     {
-        template: __dirname + '/templates/package.json.template',
+        template: __dirname + '/templates/js/package.json.template',
         output: __dirname + '/../js/package.json'
     },
     {
