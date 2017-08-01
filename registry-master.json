@@ -22,6 +22,26 @@
           "name": "READ_CTV3",
           "url": "http://read.info/ctv3",
           "description": "Read Codes version 3"
+        },
+        {
+          "name": "NHS_NUMBER_VERIFICATION_STATUS",
+          "url": "https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1",
+          "description": "NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code."
+        },
+        {
+          "name": "ETHNIC_CATEGORY",
+          "url": "https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1",
+          "description": "The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England."
+        },
+        {
+          "name": "ORGANISATION_TYPE",
+          "url": "https://fhir.hl7.org.uk/ValueSet/organisation-type-1",
+          "description": "The kind of organization that this is."
+        },
+        {
+          "name": "SDS_JOB_ROLE_NAME",
+          "url": "https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1",
+          "description": "The name of the job role in SDS."
         }
       ]
     },
@@ -53,7 +73,8 @@
           "url": "http://fhir.nhs.net/Id/sds-role-profile-id",
           "description": "The SDS identifier that uniquely identifies the role profile of the person as this agent"
         }
-      ]
+      ],
+      "terminology": []
     }
   ]
 }

@@ -68,6 +68,10 @@ var transform = [
     {
         template: __dirname + '/templates/csv/registry.csv.template',
         output: __dirname + '/../csv/registry.csv'
+    },
+    {
+        template: __dirname + '/templates/java/Registry.java.template',
+        output: __dirname + '/../java/Registry.java'
     }
 ];
 

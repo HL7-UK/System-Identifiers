@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Jul 18 2017 13:33:08 GMT+0100 (BST) -->
+<!-- Generated Tue Aug 01 2017 11:49:02 GMT+0100 (BST) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -8,6 +8,10 @@
     <Domain name="Uk">
         <Terminology name="READ_V2" url="http://read.info/readv2" description="Read Codes version 2" />
         <Terminology name="READ_CTV3" url="http://read.info/ctv3" description="Read Codes version 3" />
+        <Terminology name="NHS_NUMBER_VERIFICATION_STATUS" url="https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1" description="NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code." />
+        <Terminology name="ETHNIC_CATEGORY" url="https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1" description="The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England." />
+        <Terminology name="ORGANISATION_TYPE" url="https://fhir.hl7.org.uk/ValueSet/organisation-type-1" description="The kind of organization that this is." />
+        <Terminology name="SDS_JOB_ROLE_NAME" url="https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1" description="The name of the job role in SDS." />
     </Domain>
     <Domain name="Nhs">
         <Identifier name="NHS_NUMBER" url="http://fhir.nhs.net/Id/nhs-number" description="The NHS Number identifier for a patient" />

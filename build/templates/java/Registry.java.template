@@ -1,0 +1,20 @@
+package uk.org.hl7.fhir.registry;
+
+/**
+* {{meta.name}}, {{meta.copyright}}
+* Generated {{meta.date}}
+*/
+public class Registry {
+    {{#domain}}
+    {{#terminology}}
+    // {{description}}
+    public static string {{../name}}_terminology_{{name}} = "{{{url}}}";
+
+    {{/terminology}}
+    {{#identifier}}
+    // {{description}}
+    public static string {{../name}}_identifier_{{name}} = "{{{url}}}";
+
+    {{/identifier}}
+    {{/domain}}
+}

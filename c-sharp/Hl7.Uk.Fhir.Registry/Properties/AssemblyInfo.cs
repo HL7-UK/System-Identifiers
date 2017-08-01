@@ -1,5 +1,5 @@
 ﻿// HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Jul 18 2017 13:33:08 GMT+0100 (BST)
+// Generated Tue Aug 01 2017 11:49:02 GMT+0100 (BST)
 using System.Reflection;
 using System.Runtime.InteropServices;
 

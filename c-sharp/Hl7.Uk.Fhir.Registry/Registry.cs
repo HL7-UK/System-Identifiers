@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Jul 18 2017 13:33:08 GMT+0100 (BST)
+// Generated Tue Aug 01 2017 11:49:02 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -34,6 +34,26 @@ namespace Hl7.Uk.Fhir.Registry
                 /// Read Codes version 3
                 /// </summary>
                 public const string READ_CTV3 = "http://read.info/ctv3";
+
+                /// <summary>
+                /// NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code.
+                /// </summary>
+                public const string NHS_NUMBER_VERIFICATION_STATUS = "https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1";
+
+                /// <summary>
+                /// The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England.
+                /// </summary>
+                public const string ETHNIC_CATEGORY = "https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1";
+
+                /// <summary>
+                /// The kind of organization that this is.
+                /// </summary>
+                public const string ORGANISATION_TYPE = "https://fhir.hl7.org.uk/ValueSet/organisation-type-1";
+
+                /// <summary>
+                /// The name of the job role in SDS.
+                /// </summary>
+                public const string SDS_JOB_ROLE_NAME = "https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1";
 
                 
             }
