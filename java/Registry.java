@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Aug 01 2017 12:55:06 GMT+0100 (BST)
+* Generated Tue Aug 01 2017 13:50:16 GMT+0100 (BST)
 */
 public class Registry {
     // SNOMED CT
@@ -24,7 +24,7 @@ public class Registry {
     public static string Uk_terminology_ORGANISATION_TYPE = "https://fhir.hl7.org.uk/ValueSet/organisation-type-1";
 
     // The name of the job role in SDS.
-    public static string Uk_terminology_SDS_JOB_ROLE_NAME = "https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1";
+    public static string Uk_terminology_SDS_JOB_ROLE_NAME = "https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1";
 
     // The NHS Number identifier for a patient
     public static string Nhs_identifier_NHS_NUMBER = "http://fhir.nhs.uk/Id/nhs-number";

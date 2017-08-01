@@ -40,7 +40,7 @@
         },
         {
           "name": "SDS_JOB_ROLE_NAME",
-          "url": "https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1",
+          "url": "https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1",
           "description": "The name of the job role in SDS."
         }
       ]

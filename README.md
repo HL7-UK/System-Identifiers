@@ -36,7 +36,7 @@ http://read.info/ctv3 | Read Codes version 3 | READ_CTV3
 https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1 | NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code. | NHS_NUMBER_VERIFICATION_STATUS
 https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1 | The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England. | ETHNIC_CATEGORY
 https://fhir.hl7.org.uk/ValueSet/organisation-type-1 | The kind of organization that this is. | ORGANISATION_TYPE
-https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1 | The name of the job role in SDS. | SDS_JOB_ROLE_NAME
+https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1 | The name of the job role in SDS. | SDS_JOB_ROLE_NAME
 
 
 ### Identifier systems
@@ -90,4 +90,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Tue Aug 01 2017 12:55:06 GMT+0100 (BST)
+-- Generated Tue Aug 01 2017 13:50:16 GMT+0100 (BST)
