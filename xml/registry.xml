@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Aug 01 2017 11:49:02 GMT+0100 (BST) -->
+<!-- Generated Tue Aug 01 2017 12:55:06 GMT+0100 (BST) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -14,10 +14,10 @@
         <Terminology name="SDS_JOB_ROLE_NAME" url="https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1" description="The name of the job role in SDS." />
     </Domain>
     <Domain name="Nhs">
-        <Identifier name="NHS_NUMBER" url="http://fhir.nhs.net/Id/nhs-number" description="The NHS Number identifier for a patient" />
-        <Identifier name="ODS_ORGANIZATION_CODE" url="http://fhir.nhs.net/Id/ods-organization-code" description="ODS code to identify the organisation at organisation level" />
-        <Identifier name="ODS_SITE_CODE" url="http://fhir.nhs.net/Id/ods-site-code" description="ODS Site code to identify the organisation at site level" />
-        <Identifier name="SDS_USER_ID" url="http://fhir.nhs.net/Id/sds-user-id" description="The SDS identifier that uniquely identifies the person as this agent" />
-        <Identifier name="SDS_ROLE_PROFILE_ID" url="http://fhir.nhs.net/Id/sds-role-profile-id" description="The SDS identifier that uniquely identifies the role profile of the person as this agent" />
+        <Identifier name="NHS_NUMBER" url="http://fhir.nhs.uk/Id/nhs-number" description="The NHS Number identifier for a patient" />
+        <Identifier name="ODS_ORGANIZATION_CODE" url="http://fhir.nhs.uk/Id/ods-organization-code" description="ODS code to identify the organisation at organisation level" />
+        <Identifier name="ODS_SITE_CODE" url="http://fhir.nhs.uk/Id/ods-site-code" description="ODS Site code to identify the organisation at site level" />
+        <Identifier name="SDS_USER_ID" url="http://fhir.nhs.uk/Id/sds-user-id" description="The SDS identifier that uniquely identifies the person as this agent" />
+        <Identifier name="SDS_ROLE_PROFILE_ID" url="http://fhir.nhs.uk/Id/sds-role-profile-id" description="The SDS identifier that uniquely identifies the role profile of the person as this agent" />
     </Domain>
 </Registry>

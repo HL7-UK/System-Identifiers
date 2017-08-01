@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Aug 01 2017 11:49:02 GMT+0100 (BST)
+// Generated Tue Aug 01 2017 12:55:06 GMT+0100 (BST)
 module.exports = {
     International: {
         terminology: {
@@ -44,19 +44,19 @@ module.exports = {
         },
         identifier: {
             // The NHS Number identifier for a patient
-            NHS_NUMBER: "http://fhir.nhs.net/Id/nhs-number",
+            NHS_NUMBER: "http://fhir.nhs.uk/Id/nhs-number",
 
             // ODS code to identify the organisation at organisation level
-            ODS_ORGANIZATION_CODE: "http://fhir.nhs.net/Id/ods-organization-code",
+            ODS_ORGANIZATION_CODE: "http://fhir.nhs.uk/Id/ods-organization-code",
 
             // ODS Site code to identify the organisation at site level
-            ODS_SITE_CODE: "http://fhir.nhs.net/Id/ods-site-code",
+            ODS_SITE_CODE: "http://fhir.nhs.uk/Id/ods-site-code",
 
             // The SDS identifier that uniquely identifies the person as this agent
-            SDS_USER_ID: "http://fhir.nhs.net/Id/sds-user-id",
+            SDS_USER_ID: "http://fhir.nhs.uk/Id/sds-user-id",
 
             // The SDS identifier that uniquely identifies the role profile of the person as this agent
-            SDS_ROLE_PROFILE_ID: "http://fhir.nhs.net/Id/sds-role-profile-id"
+            SDS_ROLE_PROFILE_ID: "http://fhir.nhs.uk/Id/sds-role-profile-id"
 
             
         }

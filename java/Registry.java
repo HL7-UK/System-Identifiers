@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Aug 01 2017 11:49:02 GMT+0100 (BST)
+* Generated Tue Aug 01 2017 12:55:06 GMT+0100 (BST)
 */
 public class Registry {
     // SNOMED CT
@@ -27,18 +27,18 @@ public class Registry {
     public static string Uk_terminology_SDS_JOB_ROLE_NAME = "https://fhir.hl7.org.uk/ValueSet/sds-job-role-name-1";
 
     // The NHS Number identifier for a patient
-    public static string Nhs_identifier_NHS_NUMBER = "http://fhir.nhs.net/Id/nhs-number";
+    public static string Nhs_identifier_NHS_NUMBER = "http://fhir.nhs.uk/Id/nhs-number";
 
     // ODS code to identify the organisation at organisation level
-    public static string Nhs_identifier_ODS_ORGANIZATION_CODE = "http://fhir.nhs.net/Id/ods-organization-code";
+    public static string Nhs_identifier_ODS_ORGANIZATION_CODE = "http://fhir.nhs.uk/Id/ods-organization-code";
 
     // ODS Site code to identify the organisation at site level
-    public static string Nhs_identifier_ODS_SITE_CODE = "http://fhir.nhs.net/Id/ods-site-code";
+    public static string Nhs_identifier_ODS_SITE_CODE = "http://fhir.nhs.uk/Id/ods-site-code";
 
     // The SDS identifier that uniquely identifies the person as this agent
-    public static string Nhs_identifier_SDS_USER_ID = "http://fhir.nhs.net/Id/sds-user-id";
+    public static string Nhs_identifier_SDS_USER_ID = "http://fhir.nhs.uk/Id/sds-user-id";
 
     // The SDS identifier that uniquely identifies the role profile of the person as this agent
-    public static string Nhs_identifier_SDS_ROLE_PROFILE_ID = "http://fhir.nhs.net/Id/sds-role-profile-id";
+    public static string Nhs_identifier_SDS_ROLE_PROFILE_ID = "http://fhir.nhs.uk/Id/sds-role-profile-id";
 
 }
