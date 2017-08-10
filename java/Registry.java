@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Aug 01 2017 13:50:16 GMT+0100 (BST)
+* Generated Thu Aug 10 2017 12:12:38 GMT+0100 (BST)
 */
 public class Registry {
     // SNOMED CT

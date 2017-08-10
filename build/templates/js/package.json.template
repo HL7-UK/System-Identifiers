@@ -1,5 +1,5 @@
 {
-  "name": "hl7uk-fhir-registry",
+  "name": "@hl7-uk/fhir-registry",
   "description": "{{meta.description}}",
   "keywords": [{{#meta.keywords}}"{{value}}"{{^last}},{{/last}}{{/meta.keywords}}],
   "version": "{{meta.version}}",
@@ -9,5 +9,14 @@
     "type": "{{meta.repo.type}}",
     "url": "{{{meta.repo.url}}}"
   },
-  "contributors": [{{#meta.contributors}}"{{{value}}}"{{^last}},{{/last}}{{/meta.contributors}}]
+  "contributors": [{{#meta.contributors}}"{{{value}}}"{{^last}},{{/last}}{{/meta.contributors}}],
+  "bugs": {
+    "url": "https://github.com/HL7-UK/System-Identifiers/issues"
+  },
+  "homepage": "https://github.com/HL7-UK/System-Identifiers#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dunmail@blackpear.com"
 }

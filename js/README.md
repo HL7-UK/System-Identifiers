@@ -4,12 +4,12 @@ Package containing system identifiers used within UK FHIR resources.
 ## Installation
 
 ````
-    $ npm install hl7uk-fhir-registry
+    $ npm install @hl7-uk/fhir-registry
 ````
 
 ## Use
 ````
-var registry = require('hl7uk-fhir-registry');
+var registry = require('@hl7-uk/fhir-registry');
 
 
 console.log(registry.Nhs.identifier.NHS_NUMBER);
