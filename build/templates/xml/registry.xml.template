@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- {{meta.name}}, {{meta.copyright}} -->
+<!-- Generated {{meta.date}} -->
+<Registry>
+    {{#domain}}
+    <Domain name="{{name}}">
+        {{#terminology}}
+        <Terminology name="{{name}}" url="{{url}}" description="{{description}}" />
+        {{/terminology}}
+        {{#identifier}}
+        <Identifier name="{{name}}" url="{{url}}" description="{{description}}" />
+        {{/identifier}}
+    </Domain>
+    {{/domain}}
+</Registry>

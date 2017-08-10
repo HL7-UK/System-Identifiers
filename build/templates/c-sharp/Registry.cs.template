@@ -1,0 +1,37 @@
+// {{meta.name}}, {{meta.copyright}}
+// Generated {{meta.date}}
+namespace Hl7.Uk.Fhir.Registry
+{
+    public static class Registry
+    {
+        {{#domain}}
+        public static class {{name}}
+        {
+            public static class Terminology
+            {
+                {{#terminology}}
+                /// <summary>
+                /// {{description}}
+                /// </summary>
+                public const string {{name}} = "{{{url}}}";
+
+                {{/terminology}}
+                {{^terminology}}//None defined{{/terminology}}
+            }
+
+            public static class Identifier
+            {
+                {{#identifier}}
+                /// <summary>
+               /// {{description}}
+                /// </summary>
+                public const string {{name}} = "{{{url}}}";
+
+                {{/identifier}}
+                {{^identifier}}//None defined{{/identifier}}
+            }
+        }
+        {{/domain}}
+    }
+}
+

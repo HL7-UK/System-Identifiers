@@ -1,0 +1,9 @@
+DOMAIN,USE,NAME,URL,DESCRIPTION
+{{#domain}}
+{{#terminology}}
+{{../name}},terminology,{{name}},{{{url}}},{{description}}
+{{/terminology}}
+{{#identifier}}
+{{../name}},identifier,{{name}},{{{url}}},{{description}}
+{{/identifier}}
+{{/domain}}

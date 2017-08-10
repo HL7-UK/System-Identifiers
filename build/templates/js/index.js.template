@@ -1,0 +1,26 @@
+// {{meta.name}}, {{meta.copyright}}
+// Generated {{meta.date}}
+module.exports = {
+ {{#domain}}
+    {{name}}: {
+        terminology: {
+            {{#terminology}}
+            // {{description}}
+            {{name}}: "{{{url}}}"{{^last}},{{/last}}
+
+            {{/terminology}}
+            {{^terminology}}//None defined{{/terminology}}
+        },
+        identifier: {
+            {{#identifier}}
+            // {{description}}
+            {{name}}: "{{{url}}}"{{^last}},{{/last}}
+
+            {{/identifier}}
+            {{^identifier}}//None defined{{/identifier}}
+        }
+    }{{^last}},{{/last}}
+    {{/domain}}
+};
+
+// hl7uk-fhir-registry::index.js, {{meta.copyright}}
