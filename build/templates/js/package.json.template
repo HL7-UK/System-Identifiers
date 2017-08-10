@@ -5,6 +5,9 @@
   "version": "{{meta.version}}",
   "license": "{{meta.license.name}}",
   "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "repository": {
     "type": "{{meta.repo.type}}",
     "url": "{{{meta.repo.url}}}"
