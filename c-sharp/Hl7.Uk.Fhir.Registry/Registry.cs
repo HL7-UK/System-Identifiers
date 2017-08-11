@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Thu Aug 10 2017 12:12:38 GMT+0100 (BST)
+// Generated Fri Aug 11 2017 10:49:10 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -46,14 +46,9 @@ namespace Hl7.Uk.Fhir.Registry
                 public const string ETHNIC_CATEGORY = "https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1";
 
                 /// <summary>
-                /// The kind of organization that this is.
-                /// </summary>
-                public const string ORGANISATION_TYPE = "https://fhir.hl7.org.uk/ValueSet/organisation-type-1";
-
-                /// <summary>
                 /// The name of the job role in SDS.
                 /// </summary>
-                public const string SDS_JOB_ROLE_NAME = "https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1";
+                public const string SDS_JOB_ROLE_NAME = "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1";
 
                 
             }
@@ -75,27 +70,27 @@ namespace Hl7.Uk.Fhir.Registry
                 /// <summary>
                /// The NHS Number identifier for a patient
                 /// </summary>
-                public const string NHS_NUMBER = "http://fhir.nhs.uk/Id/nhs-number";
+                public const string NHS_NUMBER = "https://fhir.nhs.uk/Id/nhs-number";
 
                 /// <summary>
                /// ODS code to identify the organisation at organisation level
                 /// </summary>
-                public const string ODS_ORGANIZATION_CODE = "http://fhir.nhs.uk/Id/ods-organization-code";
+                public const string ODS_ORGANIZATION_CODE = "https://fhir.nhs.uk/Id/ods-organization-code";
 
                 /// <summary>
                /// ODS Site code to identify the organisation at site level
                 /// </summary>
-                public const string ODS_SITE_CODE = "http://fhir.nhs.uk/Id/ods-site-code";
+                public const string ODS_SITE_CODE = "https://fhir.nhs.uk/Id/ods-site-code";
 
                 /// <summary>
                /// The SDS identifier that uniquely identifies the person as this agent
                 /// </summary>
-                public const string SDS_USER_ID = "http://fhir.nhs.uk/Id/sds-user-id";
+                public const string SDS_USER_ID = "https://fhir.nhs.uk/Id/sds-user-id";
 
                 /// <summary>
                /// The SDS identifier that uniquely identifies the role profile of the person as this agent
                 /// </summary>
-                public const string SDS_ROLE_PROFILE_ID = "http://fhir.nhs.uk/Id/sds-role-profile-id";
+                public const string SDS_ROLE_PROFILE_ID = "https://fhir.nhs.uk/Id/sds-role-profile-id";
 
                 
             }

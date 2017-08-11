@@ -4,10 +4,9 @@ Uk,terminology,READ_V2,http://read.info/readv2,Read Codes version 2
 Uk,terminology,READ_CTV3,http://read.info/ctv3,Read Codes version 3
 Uk,terminology,NHS_NUMBER_VERIFICATION_STATUS,https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1,NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code.
 Uk,terminology,ETHNIC_CATEGORY,https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1,The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England.
-Uk,terminology,ORGANISATION_TYPE,https://fhir.hl7.org.uk/ValueSet/organisation-type-1,The kind of organization that this is.
-Uk,terminology,SDS_JOB_ROLE_NAME,https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1,The name of the job role in SDS.
-Nhs,identifier,NHS_NUMBER,http://fhir.nhs.uk/Id/nhs-number,The NHS Number identifier for a patient
-Nhs,identifier,ODS_ORGANIZATION_CODE,http://fhir.nhs.uk/Id/ods-organization-code,ODS code to identify the organisation at organisation level
-Nhs,identifier,ODS_SITE_CODE,http://fhir.nhs.uk/Id/ods-site-code,ODS Site code to identify the organisation at site level
-Nhs,identifier,SDS_USER_ID,http://fhir.nhs.uk/Id/sds-user-id,The SDS identifier that uniquely identifies the person as this agent
-Nhs,identifier,SDS_ROLE_PROFILE_ID,http://fhir.nhs.uk/Id/sds-role-profile-id,The SDS identifier that uniquely identifies the role profile of the person as this agent
+Uk,terminology,SDS_JOB_ROLE_NAME,https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1,The name of the job role in SDS.
+Nhs,identifier,NHS_NUMBER,https://fhir.nhs.uk/Id/nhs-number,The NHS Number identifier for a patient
+Nhs,identifier,ODS_ORGANIZATION_CODE,https://fhir.nhs.uk/Id/ods-organization-code,ODS code to identify the organisation at organisation level
+Nhs,identifier,ODS_SITE_CODE,https://fhir.nhs.uk/Id/ods-site-code,ODS Site code to identify the organisation at site level
+Nhs,identifier,SDS_USER_ID,https://fhir.nhs.uk/Id/sds-user-id,The SDS identifier that uniquely identifies the person as this agent
+Nhs,identifier,SDS_ROLE_PROFILE_ID,https://fhir.nhs.uk/Id/sds-role-profile-id,The SDS identifier that uniquely identifies the role profile of the person as this agent
