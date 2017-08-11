@@ -34,13 +34,8 @@
           "description": "The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England."
         },
         {
-          "name": "ORGANISATION_TYPE",
-          "url": "https://fhir.hl7.org.uk/ValueSet/organisation-type-1",
-          "description": "The kind of organization that this is."
-        },
-        {
           "name": "SDS_JOB_ROLE_NAME",
-          "url": "https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1",
+          "url": "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1",
           "description": "The name of the job role in SDS."
         }
       ]
@@ -50,27 +45,27 @@
       "identifier": [
         {
           "name": "NHS_NUMBER",
-          "url": "http://fhir.nhs.uk/Id/nhs-number",
+          "url": "https://fhir.nhs.uk/Id/nhs-number",
           "description": "The NHS Number identifier for a patient"
         },
         {
           "name": "ODS_ORGANIZATION_CODE",
-          "url": "http://fhir.nhs.uk/Id/ods-organization-code",
+          "url": "https://fhir.nhs.uk/Id/ods-organization-code",
           "description": "ODS code to identify the organisation at organisation level"
         },
         {
           "name": "ODS_SITE_CODE",
-          "url": "http://fhir.nhs.uk/Id/ods-site-code",
+          "url": "https://fhir.nhs.uk/Id/ods-site-code",
           "description": "ODS Site code to identify the organisation at site level"
         },
         {
           "name": "SDS_USER_ID",
-          "url": "http://fhir.nhs.uk/Id/sds-user-id",
+          "url": "https://fhir.nhs.uk/Id/sds-user-id",
           "description": "The SDS identifier that uniquely identifies the person as this agent"
         },
         {
           "name": "SDS_ROLE_PROFILE_ID",
-          "url": "http://fhir.nhs.uk/Id/sds-role-profile-id",
+          "url": "https://fhir.nhs.uk/Id/sds-role-profile-id",
           "description": "The SDS identifier that uniquely identifies the role profile of the person as this agent"
         }
       ],

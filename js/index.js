@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Thu Aug 10 2017 12:12:38 GMT+0100 (BST)
+// Generated Fri Aug 11 2017 10:49:10 GMT+0100 (BST)
 module.exports = {
     International: {
         terminology: {
@@ -26,11 +26,8 @@ module.exports = {
             // The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England.
             ETHNIC_CATEGORY: "https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1",
 
-            // The kind of organization that this is.
-            ORGANISATION_TYPE: "https://fhir.hl7.org.uk/ValueSet/organisation-type-1",
-
             // The name of the job role in SDS.
-            SDS_JOB_ROLE_NAME: "https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1"
+            SDS_JOB_ROLE_NAME: "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1"
 
             
         },
@@ -44,19 +41,19 @@ module.exports = {
         },
         identifier: {
             // The NHS Number identifier for a patient
-            NHS_NUMBER: "http://fhir.nhs.uk/Id/nhs-number",
+            NHS_NUMBER: "https://fhir.nhs.uk/Id/nhs-number",
 
             // ODS code to identify the organisation at organisation level
-            ODS_ORGANIZATION_CODE: "http://fhir.nhs.uk/Id/ods-organization-code",
+            ODS_ORGANIZATION_CODE: "https://fhir.nhs.uk/Id/ods-organization-code",
 
             // ODS Site code to identify the organisation at site level
-            ODS_SITE_CODE: "http://fhir.nhs.uk/Id/ods-site-code",
+            ODS_SITE_CODE: "https://fhir.nhs.uk/Id/ods-site-code",
 
             // The SDS identifier that uniquely identifies the person as this agent
-            SDS_USER_ID: "http://fhir.nhs.uk/Id/sds-user-id",
+            SDS_USER_ID: "https://fhir.nhs.uk/Id/sds-user-id",
 
             // The SDS identifier that uniquely identifies the role profile of the person as this agent
-            SDS_ROLE_PROFILE_ID: "http://fhir.nhs.uk/Id/sds-role-profile-id"
+            SDS_ROLE_PROFILE_ID: "https://fhir.nhs.uk/Id/sds-role-profile-id"
 
             
         }
