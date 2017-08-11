@@ -35,8 +35,7 @@ http://read.info/readv2 | Read Codes version 2 | READ_V2
 http://read.info/ctv3 | Read Codes version 3 | READ_CTV3
 https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1 | NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code. | NHS_NUMBER_VERIFICATION_STATUS
 https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1 | The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England. | ETHNIC_CATEGORY
-https://fhir.hl7.org.uk/ValueSet/organisation-type-1 | The kind of organization that this is. | ORGANISATION_TYPE
-https://fhir-test.hl7.org.uk/CareConnect-SDSJobRoleName-1 | The name of the job role in SDS. | SDS_JOB_ROLE_NAME
+https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1 | The name of the job role in SDS. | SDS_JOB_ROLE_NAME
 
 
 ### Identifier systems
@@ -55,11 +54,11 @@ None defined
 
 url | description | name
 ----|-------------|-----
-http://fhir.nhs.uk/Id/nhs-number | The NHS Number identifier for a patient | NHS_NUMBER
-http://fhir.nhs.uk/Id/ods-organization-code | ODS code to identify the organisation at organisation level | ODS_ORGANIZATION_CODE
-http://fhir.nhs.uk/Id/ods-site-code | ODS Site code to identify the organisation at site level | ODS_SITE_CODE
-http://fhir.nhs.uk/Id/sds-user-id | The SDS identifier that uniquely identifies the person as this agent | SDS_USER_ID
-http://fhir.nhs.uk/Id/sds-role-profile-id | The SDS identifier that uniquely identifies the role profile of the person as this agent | SDS_ROLE_PROFILE_ID
+https://fhir.nhs.uk/Id/nhs-number | The NHS Number identifier for a patient | NHS_NUMBER
+https://fhir.nhs.uk/Id/ods-organization-code | ODS code to identify the organisation at organisation level | ODS_ORGANIZATION_CODE
+https://fhir.nhs.uk/Id/ods-site-code | ODS Site code to identify the organisation at site level | ODS_SITE_CODE
+https://fhir.nhs.uk/Id/sds-user-id | The SDS identifier that uniquely identifies the person as this agent | SDS_USER_ID
+https://fhir.nhs.uk/Id/sds-role-profile-id | The SDS identifier that uniquely identifies the role profile of the person as this agent | SDS_ROLE_PROFILE_ID
 
 
 ## Contributions
@@ -90,4 +89,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Thu Aug 10 2017 12:12:38 GMT+0100 (BST)
+-- Generated Fri Aug 11 2017 10:49:10 GMT+0100 (BST)
