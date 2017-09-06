@@ -1,4 +1,23 @@
 {
+  "fhir": {
+    "version": [
+      {
+        "name": "DSTU1",
+        "id": "0.0.82",
+        "description": "DSTU 1 (Official version) with 2 technical errata"
+      },
+      {
+        "name": "DSTU2",
+        "id": "1.0.2",
+        "description": "DSTU 2 (Official version) with 1 technical errata"
+      },
+      {
+        "name": "STU3",
+        "id": "3.0.1",
+        "description": "FHIR Release 3 (STU) with 1 technical errata"
+      }
+    ]
+  },
   "domain": [
     {
       "name": "International",
