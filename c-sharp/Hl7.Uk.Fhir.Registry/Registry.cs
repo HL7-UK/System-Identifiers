@@ -1,9 +1,31 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Fri Aug 11 2017 10:49:10 GMT+0100 (BST)
+// Generated Wed Sep 06 2017 12:54:00 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
     {
+        public static class Fhir
+        {
+            public static class Version
+            {
+                /// <summary>
+                /// DSTU 1 (Official version) with 2 technical errata
+                /// </summary>
+                public const string DSTU1 = "0.0.82";
+
+                /// <summary>
+                /// DSTU 2 (Official version) with 1 technical errata
+                /// </summary>
+                public const string DSTU2 = "1.0.2";
+
+                /// <summary>
+                /// FHIR Release 3 (STU) with 1 technical errata
+                /// </summary>
+                public const string STU3 = "3.0.1";
+
+            }
+        }
+
         public static class International
         {
             public static class Terminology
