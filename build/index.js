@@ -30,6 +30,7 @@ model.meta.contributors = model.meta.contributors.map(coerceStringValueToObject)
 decorateArray(model.meta.keywords);
 decorateArray(model.meta.contributors);
 decorateArray(model.domain);
+decorateArray(model.fhir.version);
 model.domain.forEach(function(domain){
     decorateArray(domain.terminology);
     decorateArray(domain.identifier);

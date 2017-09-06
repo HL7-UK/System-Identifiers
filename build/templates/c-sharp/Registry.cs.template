@@ -4,6 +4,20 @@ namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
     {
+        public static class Fhir
+        {
+            public static class Version
+            {
+                {{#fhir.version}}
+                /// <summary>
+                /// {{description}}
+                /// </summary>
+                public const string {{name}} = "{{id}}";
+
+                {{/fhir.version}}
+            }
+        }
+
         {{#domain}}
         public static class {{name}}
         {

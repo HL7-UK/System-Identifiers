@@ -5,6 +5,11 @@ package uk.org.hl7.fhir.registry;
 * Generated {{meta.date}}
 */
 public class Registry {
+    {{#fhir.version}}
+    // {{description}}
+    public static string FHIR_{{name}} = "{{id}}";
+
+    {{/fhir.version}}
     {{#domain}}
     {{#terminology}}
     // {{description}}

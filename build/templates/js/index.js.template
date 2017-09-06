@@ -1,6 +1,12 @@
 // {{meta.name}}, {{meta.copyright}}
 // Generated {{meta.date}}
 module.exports = {
+    fhir: {
+    {{#fhir.version}}
+        // {{description}}
+        {{name}}: "{{id}}"{{^last}},{{/last}}
+    {{/fhir.version}}
+    },
  {{#domain}}
     {{name}}: {
         terminology: {
@@ -20,7 +26,7 @@ module.exports = {
             {{^identifier}}//None defined{{/identifier}}
         }
     }{{^last}},{{/last}}
-    {{/domain}}
+ {{/domain}}
 };
 
 // hl7uk-fhir-registry::index.js, {{meta.copyright}}
