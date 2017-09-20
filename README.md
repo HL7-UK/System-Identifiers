@@ -8,8 +8,9 @@ These identifiers are used within national specifications and are recommended fo
 The registry is also available in variety of computable formats to support implementors:
 - XML
 - CSV
-- JS (as a NodeJS module)
-- C# (as an assembly)
+- JS (as a NodeJS module published to npm)
+- C# (as an assembly - In progress)
+- Java (In progress)
 
 # Registry
 
