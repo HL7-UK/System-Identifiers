@@ -2,14 +2,14 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Mon Nov 27 2017 13:59:46 GMT+0000 (GMT)
+* Generated Mon Nov 27 2017 16:14:18 GMT+0000 (GMT)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
     public static string FHIR_DSTU1 = "0.0.82";
 
-    // DSTU 2 (Official version) with 1 technical errata
-    public static string FHIR_DSTU2 = "1.0.2";
+    // DSTU 2 (Official version)
+    public static string FHIR_DSTU2 = "1.0.x";
 
     // FHIR Release 3 (STU)
     public static string FHIR_STU3 = "3.0.x";
