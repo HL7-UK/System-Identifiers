@@ -13,8 +13,8 @@
       },
       {
         "name": "STU3",
-        "id": "3.0.1",
-        "description": "FHIR Release 3 (STU) with 1 technical errata"
+        "id": "3.0.x",
+        "description": "FHIR Release 3 (STU)"
       }
     ]
   },
