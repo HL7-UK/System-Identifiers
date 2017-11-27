@@ -8,8 +8,8 @@
       },
       {
         "name": "DSTU2",
-        "id": "1.0.2",
-        "description": "DSTU 2 (Official version) with 1 technical errata"
+        "id": "1.0.x",
+        "description": "DSTU 2 (Official version)"
       },
       {
         "name": "STU3",

@@ -89,4 +89,8 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
+<<<<<<< HEAD
 -- Generated Wed Sep 06 2017 12:54:00 GMT+0100 (BST)
+=======
+-- Generated Mon Nov 27 2017 16:14:18 GMT+0000 (GMT)
+>>>>>>> release/0.0.5

@@ -1,5 +1,9 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
+<<<<<<< HEAD
 // Generated Mon Nov 27 2017 13:59:46 GMT+0000 (GMT)
+=======
+// Generated Mon Nov 27 2017 16:14:18 GMT+0000 (GMT)
+>>>>>>> release/0.0.5
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -14,9 +18,9 @@ namespace Hl7.Uk.Fhir.Registry
                 public const string DSTU1 = "0.0.82";
 
                 /// <summary>
-                /// DSTU 2 (Official version) with 1 technical errata
+                /// DSTU 2 (Official version)
                 /// </summary>
-                public const string DSTU2 = "1.0.2";
+                public const string DSTU2 = "1.0.x";
 
                 /// <summary>
                 /// FHIR Release 3 (STU)
