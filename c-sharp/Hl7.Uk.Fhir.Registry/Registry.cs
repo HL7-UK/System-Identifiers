@@ -1,9 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-<<<<<<< HEAD
-// Generated Mon Nov 27 2017 13:59:46 GMT+0000 (GMT)
-=======
-// Generated Mon Nov 27 2017 16:14:18 GMT+0000 (GMT)
->>>>>>> release/0.0.5
+// Generated Tue Aug 28 2018 12:26:12 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
