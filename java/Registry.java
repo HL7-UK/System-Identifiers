@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Sep 25 2018 12:05:32 GMT+0100 (BST)
+* Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
