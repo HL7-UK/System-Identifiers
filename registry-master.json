@@ -56,8 +56,6 @@
           "name": "SDS_JOB_ROLE_NAME",
           "url": "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1",
           "description": "The name of the job role in SDS."
-<<<<<<< HEAD
-=======
         },
         {
           "name": "EMIS_DRUG",
@@ -78,7 +76,6 @@
           "name": "GEMSCRIPT_DRUG",
           "url": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
           "description": "Gemscript drug codes"
->>>>>>> release/0.0.7
         }
       ]
     },
