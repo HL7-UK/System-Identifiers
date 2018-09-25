@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
+<<<<<<< HEAD
 <!-- Generated Tue Aug 28 2018 12:26:12 GMT+0100 (BST) -->
+=======
+<!-- Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST) -->
+>>>>>>> release/0.0.7
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -11,6 +15,12 @@
         <Terminology name="NHS_NUMBER_VERIFICATION_STATUS" url="https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1" description="NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code." />
         <Terminology name="ETHNIC_CATEGORY" url="https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1" description="The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England." />
         <Terminology name="SDS_JOB_ROLE_NAME" url="https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1" description="The name of the job role in SDS." />
+        <Terminology name="EMIS_DRUG" url="https://fhir.hl7.org.uk/Id/emis-drug-codes" description="EMIS drug codes" />
+        <Terminology name="EGTON" url="https://fhir.hl7.org.uk/Id/egton-codes" description="Egton codes" />
+        <Terminology name="MULTILEX_DRUG" url="https://fhir.hl7.org.uk/Id/multilex-drug-codes" description="Multilex drug codes" />
+        <Terminology name="GEMSCRIPT_DRUG" url="https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes" description="Gemscript drug codes" />
+        <Identifier name="GMC_NUMBER" url="https://fhir.hl7.org.uk/Id/gmc-number" description="General Medical Council (GMC) number" />
+        <Identifier name="GMP_NUMBER" url="https://fhir.hl7.org.uk/Id/gmp-number" description="General Practitioner (GMP) number" />
     </Domain>
     <Domain name="Nhs">
         <Identifier name="NHS_NUMBER" url="https://fhir.nhs.uk/Id/nhs-number" description="The NHS Number identifier for a patient" />
@@ -18,5 +28,6 @@
         <Identifier name="ODS_SITE_CODE" url="https://fhir.nhs.uk/Id/ods-site-code" description="ODS Site code to identify the organisation at site level" />
         <Identifier name="SDS_USER_ID" url="https://fhir.nhs.uk/Id/sds-user-id" description="The SDS identifier that uniquely identifies the person as this agent" />
         <Identifier name="SDS_ROLE_PROFILE_ID" url="https://fhir.nhs.uk/Id/sds-role-profile-id" description="The SDS identifier that uniquely identifies the role profile of the person as this agent" />
+        <Identifier name="CROSSCARESETTING_ID" url="https://fhir.nhs.uk/Id/cross-care-setting-identifier" description="Cross care setting identifier" />
     </Domain>
 </Registry>

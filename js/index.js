@@ -1,5 +1,9 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
+<<<<<<< HEAD
 // Generated Tue Aug 28 2018 12:26:12 GMT+0100 (BST)
+=======
+// Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
+>>>>>>> release/0.0.7
 module.exports = {
     fhir: {
         // DSTU 1 (Official version) with 2 technical errata
@@ -35,12 +39,30 @@ module.exports = {
             ETHNIC_CATEGORY: "https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1",
 
             // The name of the job role in SDS.
-            SDS_JOB_ROLE_NAME: "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1"
+            SDS_JOB_ROLE_NAME: "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1",
+
+            // EMIS drug codes
+            EMIS_DRUG: "https://fhir.hl7.org.uk/Id/emis-drug-codes",
+
+            // Egton codes
+            EGTON: "https://fhir.hl7.org.uk/Id/egton-codes",
+
+            // Multilex drug codes
+            MULTILEX_DRUG: "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
+
+            // Gemscript drug codes
+            GEMSCRIPT_DRUG: "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes"
 
             
         },
         identifier: {
-            //None defined
+            // General Medical Council (GMC) number
+            GMC_NUMBER: "https://fhir.hl7.org.uk/Id/gmc-number",
+
+            // General Practitioner (GMP) number
+            GMP_NUMBER: "https://fhir.hl7.org.uk/Id/gmp-number"
+
+            
         }
     },
     Nhs: {
@@ -61,7 +83,10 @@ module.exports = {
             SDS_USER_ID: "https://fhir.nhs.uk/Id/sds-user-id",
 
             // The SDS identifier that uniquely identifies the role profile of the person as this agent
-            SDS_ROLE_PROFILE_ID: "https://fhir.nhs.uk/Id/sds-role-profile-id"
+            SDS_ROLE_PROFILE_ID: "https://fhir.nhs.uk/Id/sds-role-profile-id",
+
+            // Cross care setting identifier
+            CROSSCARESETTING_ID: "https://fhir.nhs.uk/Id/cross-care-setting-identifier"
 
             
         }

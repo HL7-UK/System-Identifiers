@@ -2,7 +2,11 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
+<<<<<<< HEAD
 * Generated Tue Aug 28 2018 12:26:12 GMT+0100 (BST)
+=======
+* Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
+>>>>>>> release/0.0.7
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -32,6 +36,24 @@ public class Registry {
     // The name of the job role in SDS.
     public static string Uk_terminology_SDS_JOB_ROLE_NAME = "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1";
 
+    // EMIS drug codes
+    public static string Uk_terminology_EMIS_DRUG = "https://fhir.hl7.org.uk/Id/emis-drug-codes";
+
+    // Egton codes
+    public static string Uk_terminology_EGTON = "https://fhir.hl7.org.uk/Id/egton-codes";
+
+    // Multilex drug codes
+    public static string Uk_terminology_MULTILEX_DRUG = "https://fhir.hl7.org.uk/Id/multilex-drug-codes";
+
+    // Gemscript drug codes
+    public static string Uk_terminology_GEMSCRIPT_DRUG = "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes";
+
+    // General Medical Council (GMC) number
+    public static string Uk_identifier_GMC_NUMBER = "https://fhir.hl7.org.uk/Id/gmc-number";
+
+    // General Practitioner (GMP) number
+    public static string Uk_identifier_GMP_NUMBER = "https://fhir.hl7.org.uk/Id/gmp-number";
+
     // The NHS Number identifier for a patient
     public static string Nhs_identifier_NHS_NUMBER = "https://fhir.nhs.uk/Id/nhs-number";
 
@@ -46,5 +68,8 @@ public class Registry {
 
     // The SDS identifier that uniquely identifies the role profile of the person as this agent
     public static string Nhs_identifier_SDS_ROLE_PROFILE_ID = "https://fhir.nhs.uk/Id/sds-role-profile-id";
+
+    // Cross care setting identifier
+    public static string Nhs_identifier_CROSSCARESETTING_ID = "https://fhir.nhs.uk/Id/cross-care-setting-identifier";
 
 }

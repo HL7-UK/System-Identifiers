@@ -2,7 +2,11 @@
   "name": "@hl7-uk/fhir-registry",
   "description": "HL7 UK FHIR system identifier registry",
   "keywords": ["HL7","UK","FHIR","NHS"],
+<<<<<<< HEAD
   "version": "0.0.6",
+=======
+  "version": "0.0.7",
+>>>>>>> release/0.0.7
   "license": "Apache-2.0",
   "private": false,
   "publishConfig": {

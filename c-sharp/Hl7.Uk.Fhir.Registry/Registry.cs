@@ -1,5 +1,9 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
+<<<<<<< HEAD
 // Generated Tue Aug 28 2018 12:26:12 GMT+0100 (BST)
+=======
+// Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
+>>>>>>> release/0.0.7
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -72,12 +76,42 @@ namespace Hl7.Uk.Fhir.Registry
                 /// </summary>
                 public const string SDS_JOB_ROLE_NAME = "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1";
 
+                /// <summary>
+                /// EMIS drug codes
+                /// </summary>
+                public const string EMIS_DRUG = "https://fhir.hl7.org.uk/Id/emis-drug-codes";
+
+                /// <summary>
+                /// Egton codes
+                /// </summary>
+                public const string EGTON = "https://fhir.hl7.org.uk/Id/egton-codes";
+
+                /// <summary>
+                /// Multilex drug codes
+                /// </summary>
+                public const string MULTILEX_DRUG = "https://fhir.hl7.org.uk/Id/multilex-drug-codes";
+
+                /// <summary>
+                /// Gemscript drug codes
+                /// </summary>
+                public const string GEMSCRIPT_DRUG = "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes";
+
                 
             }
 
             public static class Identifier
             {
-                //None defined
+                /// <summary>
+               /// General Medical Council (GMC) number
+                /// </summary>
+                public const string GMC_NUMBER = "https://fhir.hl7.org.uk/Id/gmc-number";
+
+                /// <summary>
+               /// General Practitioner (GMP) number
+                /// </summary>
+                public const string GMP_NUMBER = "https://fhir.hl7.org.uk/Id/gmp-number";
+
+                
             }
         }
         public static class Nhs
@@ -113,6 +147,11 @@ namespace Hl7.Uk.Fhir.Registry
                /// The SDS identifier that uniquely identifies the role profile of the person as this agent
                 /// </summary>
                 public const string SDS_ROLE_PROFILE_ID = "https://fhir.nhs.uk/Id/sds-role-profile-id";
+
+                /// <summary>
+               /// Cross care setting identifier
+                /// </summary>
+                public const string CROSSCARESETTING_ID = "https://fhir.nhs.uk/Id/cross-care-setting-identifier";
 
                 
             }
