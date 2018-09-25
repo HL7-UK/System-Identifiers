@@ -39,6 +39,7 @@ https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1 | The name of the job role 
 https://fhir.hl7.org.uk/Id/emis-drug-codes | EMIS drug codes | EMIS_DRUG
 https://fhir.hl7.org.uk/Id/egton-codes | Egton codes | EGTON
 https://fhir.hl7.org.uk/Id/multilex-drug-codes | Multilex drug codes | MULTILEX_DRUG
+https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes | Gemscript drug codes | GEMSCRIPT_DRUG
 
 
 ### Identifier systems
@@ -95,4 +96,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Tue Aug 28 2018 12:03:54 GMT+0100 (BST)
+-- Generated Tue Sep 25 2018 12:05:32 GMT+0100 (BST)

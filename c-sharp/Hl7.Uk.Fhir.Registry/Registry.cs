@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Aug 28 2018 12:03:54 GMT+0100 (BST)
+// Generated Tue Sep 25 2018 12:05:32 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -86,6 +86,11 @@ namespace Hl7.Uk.Fhir.Registry
                 /// Multilex drug codes
                 /// </summary>
                 public const string MULTILEX_DRUG = "https://fhir.hl7.org.uk/Id/multilex-drug-codes";
+
+                /// <summary>
+                /// Gemscript drug codes
+                /// </summary>
+                public const string GEMSCRIPT_DRUG = "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes";
 
                 
             }

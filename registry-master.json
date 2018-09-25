@@ -83,6 +83,11 @@
           "name": "MULTILEX_DRUG",
           "url": "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
           "description": "Multilex drug codes"
+        },
+        {
+          "name": "GEMSCRIPT_DRUG",
+          "url": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
+          "description": "Gemscript drug codes"
         }
       ]
     },

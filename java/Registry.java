@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Aug 28 2018 12:03:54 GMT+0100 (BST)
+* Generated Tue Sep 25 2018 12:05:32 GMT+0100 (BST)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -40,6 +40,9 @@ public class Registry {
 
     // Multilex drug codes
     public static string Uk_terminology_MULTILEX_DRUG = "https://fhir.hl7.org.uk/Id/multilex-drug-codes";
+
+    // Gemscript drug codes
+    public static string Uk_terminology_GEMSCRIPT_DRUG = "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes";
 
     // General Medical Council (GMC) number
     public static string Uk_identifier_GMC_NUMBER = "https://fhir.hl7.org.uk/Id/gmc-number";
