@@ -1,0 +1,266 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "SNOMED_CT",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "SNOMED CT",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "http://snomed.info/sct"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "READ_V2",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "Read Codes version 2",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "http://read.info/readv2"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "READ_CTV3",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "Read Codes version 3",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "http://read.info/ctv3"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "NHS_NUMBER_VERIFICATION_STATUS",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "NHS number verification status. Codes from NHS Data Dictionary: NHS Number Status Indicator Code.",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "ETHNIC_CATEGORY",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "The ethnic category which the patient regards as their own. It is an extension of the ETHNIC CATEGORY CODE described in the NHS Data Model and Dictionary for England.",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "SDS_JOB_ROLE_NAME",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "The name of the job role in SDS.",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "EMIS_DRUG",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "EMIS drug codes",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/emis-drug-codes"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "EGTON",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "Egton codes",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/egton-codes"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "MULTILEX_DRUG",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "Multilex drug codes",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/multilex-drug-codes"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "GEMSCRIPT_DRUG",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "Gemscript drug codes",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "GMC_NUMBER",
+                "status": "active",
+                "kind": "identifier",
+                "description": "General Medical Council (GMC) number",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/gmc-number"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "GMP_NUMBER",
+                "status": "active",
+                "kind": "identifier",
+                "description": "General Practitioner (GMP) number",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/gmp-number"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "GNC_CODE",
+                "status": "active",
+                "kind": "identifier",
+                "description": "General National Codes",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/gnc-codes"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "NHS_NUMBER",
+                "status": "active",
+                "kind": "identifier",
+                "description": "The NHS Number identifier for a patient",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.nhs.uk/Id/nhs-number"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "ODS_ORGANIZATION_CODE",
+                "status": "active",
+                "kind": "identifier",
+                "description": "ODS code to identify the organisation at organisation level",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.nhs.uk/Id/ods-organization-code"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "ODS_SITE_CODE",
+                "status": "active",
+                "kind": "identifier",
+                "description": "ODS Site code to identify the organisation at site level",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.nhs.uk/Id/ods-site-code"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "SDS_USER_ID",
+                "status": "active",
+                "kind": "identifier",
+                "description": "The SDS identifier that uniquely identifies the person as this agent",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.nhs.uk/Id/sds-user-id"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "SDS_ROLE_PROFILE_ID",
+                "status": "active",
+                "kind": "identifier",
+                "description": "The SDS identifier that uniquely identifies the role profile of the person as this agent",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.nhs.uk/Id/sds-role-profile-id"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "CROSSCARESETTING_ID",
+                "status": "active",
+                "kind": "identifier",
+                "description": "Cross care setting identifier",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.nhs.uk/Id/cross-care-setting-identifier"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "PLACEHOLDER",
+                "status": "unknown",
+                "kind": "identifier",
+                "description": "Placeholder to generate valid JSON in proof of concept",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "unknown"
+                }
+            }
+        }
+    ]
+}

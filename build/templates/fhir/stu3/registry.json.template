@@ -1,0 +1,51 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+    {{#domain}}
+    {{#terminology}}
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "{{name}}",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "{{description}}",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "{{{url}}}"
+                }
+            }
+        },
+    {{/terminology}}
+    {{#identifier}}
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "{{name}}",
+                "status": "active",
+                "kind": "identifier",
+                "description": "{{description}}",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "{{{url}}}"
+                }
+            }
+        },
+    {{/identifier}}
+    {{/domain}}
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
+                "name": "PLACEHOLDER",
+                "status": "unknown",
+                "kind": "identifier",
+                "description": "Placeholder to generate valid JSON in proof of concept",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "unknown"
+                }
+            }
+        }
+    ]
+}

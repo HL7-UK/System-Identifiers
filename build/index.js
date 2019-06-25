@@ -73,6 +73,10 @@ var transform = [
     {
         template: __dirname + '/templates/java/Registry.java.template',
         output: __dirname + '/../java/Registry.java'
+    },
+    {
+        template: __dirname + '/templates/fhir/stu3/registry.json.template',
+        output: __dirname + '/../fhir/stu3/registry.json'
     }
 ];
 

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Jun 25 2019 11:15:40 GMT+0100 (BST) -->
+<!-- Generated Tue Jun 25 2019 12:09:24 GMT+0100 (BST) -->
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
