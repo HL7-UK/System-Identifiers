@@ -77,6 +77,23 @@
           "url": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
           "description": "Gemscript drug codes"
         }
+      ],
+      "identifier": [
+        {
+          "name": "GMC_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/gmc-number",
+          "description": "General Medical Council (GMC) number"
+        },
+        {
+          "name": "GMP_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/gmp-number",
+          "description": "General Practitioner (GMP) number"
+        },
+        {
+          "name": "GNC_CODE",
+          "url": "https://fhir.hl7.org.uk/Id/gnc-codes",
+          "description": "General National Codes"
+        }
       ]
     },
     {
@@ -106,6 +123,11 @@
           "name": "SDS_ROLE_PROFILE_ID",
           "url": "https://fhir.nhs.uk/Id/sds-role-profile-id",
           "description": "The SDS identifier that uniquely identifies the role profile of the person as this agent"
+        },
+        {
+          "name": "CROSSCARESETTING_ID",
+          "url": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+          "description": "Cross care setting identifier"
         }
       ],
       "terminology": []

@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
+// Generated Tue Jun 25 2019 11:15:40 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -106,6 +106,11 @@ namespace Hl7.Uk.Fhir.Registry
                /// General Practitioner (GMP) number
                 /// </summary>
                 public const string GMP_NUMBER = "https://fhir.hl7.org.uk/Id/gmp-number";
+
+                /// <summary>
+               /// General National Codes
+                /// </summary>
+                public const string GNC_CODE = "https://fhir.hl7.org.uk/Id/gnc-codes";
 
                 
             }

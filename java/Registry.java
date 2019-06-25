@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
+* Generated Tue Jun 25 2019 11:15:40 GMT+0100 (BST)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -49,6 +49,9 @@ public class Registry {
 
     // General Practitioner (GMP) number
     public static string Uk_identifier_GMP_NUMBER = "https://fhir.hl7.org.uk/Id/gmp-number";
+
+    // General National Codes
+    public static string Uk_identifier_GNC_CODE = "https://fhir.hl7.org.uk/Id/gnc-codes";
 
     // The NHS Number identifier for a patient
     public static string Nhs_identifier_NHS_NUMBER = "https://fhir.nhs.uk/Id/nhs-number";

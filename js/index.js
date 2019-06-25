@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST)
+// Generated Tue Jun 25 2019 11:15:40 GMT+0100 (BST)
 module.exports = {
     fhir: {
         // DSTU 1 (Official version) with 2 technical errata
@@ -56,7 +56,10 @@ module.exports = {
             GMC_NUMBER: "https://fhir.hl7.org.uk/Id/gmc-number",
 
             // General Practitioner (GMP) number
-            GMP_NUMBER: "https://fhir.hl7.org.uk/Id/gmp-number"
+            GMP_NUMBER: "https://fhir.hl7.org.uk/Id/gmp-number",
+
+            // General National Codes
+            GNC_CODE: "https://fhir.hl7.org.uk/Id/gnc-codes"
 
             
         }

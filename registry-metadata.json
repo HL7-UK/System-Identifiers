@@ -1,7 +1,7 @@
 {
   "name": "HL7 UK FHIR Registry",
   "copyright": "Copyright © 2016+ HL7 UK",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "HL7 UK FHIR system identifier registry",
   "icon": "https://avatars0.githubusercontent.com/u/20111211",
   "keywords": ["HL7", "UK", "FHIR", "NHS"],

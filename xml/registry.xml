@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Sep 25 2018 12:11:49 GMT+0100 (BST) -->
+<!-- Generated Tue Jun 25 2019 11:15:40 GMT+0100 (BST) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -17,6 +17,7 @@
         <Terminology name="GEMSCRIPT_DRUG" url="https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes" description="Gemscript drug codes" />
         <Identifier name="GMC_NUMBER" url="https://fhir.hl7.org.uk/Id/gmc-number" description="General Medical Council (GMC) number" />
         <Identifier name="GMP_NUMBER" url="https://fhir.hl7.org.uk/Id/gmp-number" description="General Practitioner (GMP) number" />
+        <Identifier name="GNC_CODE" url="https://fhir.hl7.org.uk/Id/gnc-codes" description="General National Codes" />
     </Domain>
     <Domain name="Nhs">
         <Identifier name="NHS_NUMBER" url="https://fhir.nhs.uk/Id/nhs-number" description="The NHS Number identifier for a patient" />
