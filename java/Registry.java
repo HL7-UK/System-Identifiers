@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Jun 25 2019 12:09:24 GMT+0100 (BST)
+* Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -13,6 +13,9 @@ public class Registry {
 
     // FHIR Release 3 (STU)
     public static string FHIR_STU3 = "3.0.x";
+
+    // FHIR Release 4
+    public static string FHIR_R4 = "4.0.x";
 
     // SNOMED CT
     public static string International_terminology_SNOMED_CT = "http://snomed.info/sct";

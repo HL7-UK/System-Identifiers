@@ -15,6 +15,11 @@
         "name": "STU3",
         "id": "3.0.x",
         "description": "FHIR Release 3 (STU)"
+      },
+      {
+        "name": "R4",
+        "id": "4.0.x",
+        "description": "FHIR Release 4"
       }
     ]
   },

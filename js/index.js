@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Jun 25 2019 12:09:24 GMT+0100 (BST)
+// Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT)
 module.exports = {
     fhir: {
         // DSTU 1 (Official version) with 2 technical errata
@@ -7,7 +7,9 @@ module.exports = {
         // DSTU 2 (Official version)
         DSTU2: "1.0.x",
         // FHIR Release 3 (STU)
-        STU3: "3.0.x"
+        STU3: "3.0.x",
+        // FHIR Release 4
+        R4: "4.0.x"
     },
     International: {
         terminology: {

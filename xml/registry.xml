@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Jun 25 2019 12:09:24 GMT+0100 (BST) -->
+<!-- Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />

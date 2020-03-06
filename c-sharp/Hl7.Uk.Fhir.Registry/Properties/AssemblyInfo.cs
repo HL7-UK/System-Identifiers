@@ -1,5 +1,5 @@
 ﻿// HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Jun 25 2019 12:09:24 GMT+0100 (BST)
+// Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT)
 using System.Reflection;
 using System.Runtime.InteropServices;
 
@@ -33,5 +33,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.8.*")]
-[assembly: AssemblyFileVersion("0.0.8.*")]
+[assembly: AssemblyVersion("0.0.9.*")]
+[assembly: AssemblyFileVersion("0.0.9.*")]
