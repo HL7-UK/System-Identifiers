@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT)
+// Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -96,6 +96,11 @@ namespace Hl7.Uk.Fhir.Registry
                 /// Gemscript drug codes
                 /// </summary>
                 public const string GEMSCRIPT_DRUG = "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes";
+
+                /// <summary>
+                /// BNF drug codes
+                /// </summary>
+                public const string BNF_DRUG = "https://fhir.hl7.org.uk/Id/bnf-drug-codes";
 
                 
             }

@@ -135,6 +135,19 @@
         {
             "resource": {
                 "resourceType": "NamingSystem",
+                "name": "BNF_DRUG",
+                "status": "active",
+                "kind": "codesystem",
+                "description": "BNF drug codes",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/bnf-drug-codes"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
                 "name": "GMC_NUMBER",
                 "status": "active",
                 "kind": "identifier",

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT) -->
+<!-- Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST) -->
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
         <id>HL7 UK FHIR Registry</id>
 
         <!-- The package version number that is used when resolving dependencies -->
-        <version>0.0.9</version>
+        <version>0.0.10</version>
 
         <!-- Authors contain text that appears directly on the gallery -->
         <authors>Dunmail Hodkinson</authors>

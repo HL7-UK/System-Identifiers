@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT)
+// Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)
 module.exports = {
     fhir: {
         // DSTU 1 (Official version) with 2 technical errata
@@ -49,7 +49,10 @@ module.exports = {
             MULTILEX_DRUG: "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
 
             // Gemscript drug codes
-            GEMSCRIPT_DRUG: "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes"
+            GEMSCRIPT_DRUG: "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
+
+            // BNF drug codes
+            BNF_DRUG: "https://fhir.hl7.org.uk/Id/bnf-drug-codes"
 
             
         },

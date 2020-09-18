@@ -9,6 +9,7 @@ Uk,terminology,EMIS_DRUG,https://fhir.hl7.org.uk/Id/emis-drug-codes,EMIS drug co
 Uk,terminology,EGTON,https://fhir.hl7.org.uk/Id/egton-codes,Egton codes
 Uk,terminology,MULTILEX_DRUG,https://fhir.hl7.org.uk/Id/multilex-drug-codes,Multilex drug codes
 Uk,terminology,GEMSCRIPT_DRUG,https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes,Gemscript drug codes
+Uk,terminology,BNF_DRUG,https://fhir.hl7.org.uk/Id/bnf-drug-codes,BNF drug codes
 Uk,identifier,GMC_NUMBER,https://fhir.hl7.org.uk/Id/gmc-number,General Medical Council (GMC) number
 Uk,identifier,GMP_NUMBER,https://fhir.hl7.org.uk/Id/gmp-number,General Practitioner (GMP) number
 Uk,identifier,GNC_CODE,https://fhir.hl7.org.uk/Id/gnc-codes,General National Codes

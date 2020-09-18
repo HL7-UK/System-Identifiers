@@ -40,6 +40,7 @@ https://fhir.hl7.org.uk/Id/emis-drug-codes | EMIS drug codes | EMIS_DRUG
 https://fhir.hl7.org.uk/Id/egton-codes | Egton codes | EGTON
 https://fhir.hl7.org.uk/Id/multilex-drug-codes | Multilex drug codes | MULTILEX_DRUG
 https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes | Gemscript drug codes | GEMSCRIPT_DRUG
+https://fhir.hl7.org.uk/Id/bnf-drug-codes | BNF drug codes | BNF_DRUG
 
 
 ### Identifier systems
@@ -97,4 +98,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT)
+-- Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)

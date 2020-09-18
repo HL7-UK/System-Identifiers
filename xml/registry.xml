@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Fri Mar 06 2020 15:29:14 GMT+0000 (GMT) -->
+<!-- Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -15,6 +15,7 @@
         <Terminology name="EGTON" url="https://fhir.hl7.org.uk/Id/egton-codes" description="Egton codes" />
         <Terminology name="MULTILEX_DRUG" url="https://fhir.hl7.org.uk/Id/multilex-drug-codes" description="Multilex drug codes" />
         <Terminology name="GEMSCRIPT_DRUG" url="https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes" description="Gemscript drug codes" />
+        <Terminology name="BNF_DRUG" url="https://fhir.hl7.org.uk/Id/bnf-drug-codes" description="BNF drug codes" />
         <Identifier name="GMC_NUMBER" url="https://fhir.hl7.org.uk/Id/gmc-number" description="General Medical Council (GMC) number" />
         <Identifier name="GMP_NUMBER" url="https://fhir.hl7.org.uk/Id/gmp-number" description="General Practitioner (GMP) number" />
         <Identifier name="GNC_CODE" url="https://fhir.hl7.org.uk/Id/gnc-codes" description="General National Codes" />
