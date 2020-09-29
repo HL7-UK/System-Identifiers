@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)
+// Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST)
 module.exports = {
     fhir: {
         // DSTU 1 (Official version) with 2 technical errata
@@ -64,7 +64,10 @@ module.exports = {
             GMP_NUMBER: "https://fhir.hl7.org.uk/Id/gmp-number",
 
             // General National Codes
-            GNC_CODE: "https://fhir.hl7.org.uk/Id/gnc-codes"
+            GNC_CODE: "https://fhir.hl7.org.uk/Id/gnc-codes",
+
+            // Department for Education School number
+            SCHOOL_NUMBER: "https://fhir.hl7.org.uk/Id/urn-school-number"
 
             
         }

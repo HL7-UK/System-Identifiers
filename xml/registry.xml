@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST) -->
+<!-- Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -19,6 +19,7 @@
         <Identifier name="GMC_NUMBER" url="https://fhir.hl7.org.uk/Id/gmc-number" description="General Medical Council (GMC) number" />
         <Identifier name="GMP_NUMBER" url="https://fhir.hl7.org.uk/Id/gmp-number" description="General Practitioner (GMP) number" />
         <Identifier name="GNC_CODE" url="https://fhir.hl7.org.uk/Id/gnc-codes" description="General National Codes" />
+        <Identifier name="SCHOOL_NUMBER" url="https://fhir.hl7.org.uk/Id/urn-school-number" description="Department for Education School number" />
     </Domain>
     <Domain name="Nhs">
         <Identifier name="NHS_NUMBER" url="https://fhir.nhs.uk/Id/nhs-number" description="The NHS Number identifier for a patient" />

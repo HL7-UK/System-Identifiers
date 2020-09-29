@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)
+// Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -121,6 +121,11 @@ namespace Hl7.Uk.Fhir.Registry
                /// General National Codes
                 /// </summary>
                 public const string GNC_CODE = "https://fhir.hl7.org.uk/Id/gnc-codes";
+
+                /// <summary>
+               /// Department for Education School number
+                /// </summary>
+                public const string SCHOOL_NUMBER = "https://fhir.hl7.org.uk/Id/urn-school-number";
 
                 
             }

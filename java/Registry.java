@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)
+* Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -58,6 +58,9 @@ public class Registry {
 
     // General National Codes
     public static string Uk_identifier_GNC_CODE = "https://fhir.hl7.org.uk/Id/gnc-codes";
+
+    // Department for Education School number
+    public static string Uk_identifier_SCHOOL_NUMBER = "https://fhir.hl7.org.uk/Id/urn-school-number";
 
     // The NHS Number identifier for a patient
     public static string Nhs_identifier_NHS_NUMBER = "https://fhir.nhs.uk/Id/nhs-number";

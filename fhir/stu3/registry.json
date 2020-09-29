@@ -187,6 +187,19 @@
         {
             "resource": {
                 "resourceType": "NamingSystem",
+                "name": "SCHOOL_NUMBER",
+                "status": "active",
+                "kind": "identifier",
+                "description": "Department for Education School number",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/urn-school-number"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
                 "name": "NHS_NUMBER",
                 "status": "active",
                 "kind": "identifier",

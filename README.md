@@ -50,6 +50,7 @@ url | description | name
 https://fhir.hl7.org.uk/Id/gmc-number | General Medical Council (GMC) number | GMC_NUMBER
 https://fhir.hl7.org.uk/Id/gmp-number | General Practitioner (GMP) number | GMP_NUMBER
 https://fhir.hl7.org.uk/Id/gnc-codes | General National Codes | GNC_CODE
+https://fhir.hl7.org.uk/Id/urn-school-number | Department for Education School number | SCHOOL_NUMBER
 
 ## Nhs
 ### Terminology systems
@@ -98,4 +99,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Fri Sep 18 2020 17:53:21 GMT+0100 (BST)
+-- Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST)

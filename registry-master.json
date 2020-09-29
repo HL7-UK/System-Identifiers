@@ -103,6 +103,11 @@
           "name": "GNC_CODE",
           "url": "https://fhir.hl7.org.uk/Id/gnc-codes",
           "description": "General National Codes"
+        },
+        {
+          "name": "SCHOOL_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/urn-school-number",
+          "description": "Department for Education School number"
         }
       ]
     },
