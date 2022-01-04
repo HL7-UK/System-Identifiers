@@ -12,6 +12,9 @@ Uk,terminology,GEMSCRIPT_DRUG,https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-
 Uk,terminology,BNF_DRUG,https://fhir.hl7.org.uk/Id/bnf-drug-codes,BNF drug codes
 Uk,identifier,GMC_NUMBER,https://fhir.hl7.org.uk/Id/gmc-number,General Medical Council (GMC) number
 Uk,identifier,GMP_NUMBER,https://fhir.hl7.org.uk/Id/gmp-number,General Practitioner (GMP) number
+Uk,identifier,GDC_NUMBER,https://fhir.hl7.org.uk/Id/gdc-number,General Dental Council (GDC) number
+Uk,identifier,NMC_NUMBER,https://fhir.hl7.org.uk/Id/nmc-number,Nursing and Midwifery Council (NMC) number
+Uk,identifier,HCPC_NUMBER,https://fhir.hl7.org.uk/Id/hcpc-number,Health and Care Professions Council (HCPC) number
 Uk,identifier,GNC_CODE,https://fhir.hl7.org.uk/Id/gnc-codes,General National Codes
 Uk,identifier,SCHOOL_NUMBER,https://fhir.hl7.org.uk/Id/urn-school-number,Department for Education School number
 Nhs,identifier,NHS_NUMBER,https://fhir.nhs.uk/Id/nhs-number,The NHS Number identifier for a patient

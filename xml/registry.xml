@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST) -->
+<!-- Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -18,6 +18,9 @@
         <Terminology name="BNF_DRUG" url="https://fhir.hl7.org.uk/Id/bnf-drug-codes" description="BNF drug codes" />
         <Identifier name="GMC_NUMBER" url="https://fhir.hl7.org.uk/Id/gmc-number" description="General Medical Council (GMC) number" />
         <Identifier name="GMP_NUMBER" url="https://fhir.hl7.org.uk/Id/gmp-number" description="General Practitioner (GMP) number" />
+        <Identifier name="GDC_NUMBER" url="https://fhir.hl7.org.uk/Id/gdc-number" description="General Dental Council (GDC) number" />
+        <Identifier name="NMC_NUMBER" url="https://fhir.hl7.org.uk/Id/nmc-number" description="Nursing and Midwifery Council (NMC) number" />
+        <Identifier name="HCPC_NUMBER" url="https://fhir.hl7.org.uk/Id/hcpc-number" description="Health and Care Professions Council (HCPC) number" />
         <Identifier name="GNC_CODE" url="https://fhir.hl7.org.uk/Id/gnc-codes" description="General National Codes" />
         <Identifier name="SCHOOL_NUMBER" url="https://fhir.hl7.org.uk/Id/urn-school-number" description="Department for Education School number" />
     </Domain>

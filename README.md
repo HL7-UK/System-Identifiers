@@ -49,6 +49,9 @@ url | description | name
 ----|-------------|-----
 https://fhir.hl7.org.uk/Id/gmc-number | General Medical Council (GMC) number | GMC_NUMBER
 https://fhir.hl7.org.uk/Id/gmp-number | General Practitioner (GMP) number | GMP_NUMBER
+https://fhir.hl7.org.uk/Id/gdc-number | General Dental Council (GDC) number | GDC_NUMBER
+https://fhir.hl7.org.uk/Id/nmc-number | Nursing and Midwifery Council (NMC) number | NMC_NUMBER
+https://fhir.hl7.org.uk/Id/hcpc-number | Health and Care Professions Council (HCPC) number | HCPC_NUMBER
 https://fhir.hl7.org.uk/Id/gnc-codes | General National Codes | GNC_CODE
 https://fhir.hl7.org.uk/Id/urn-school-number | Department for Education School number | SCHOOL_NUMBER
 
@@ -99,4 +102,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST)
+-- Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time)

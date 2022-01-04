@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Sep 29 2020 13:19:20 GMT+0100 (BST)
+* Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -55,6 +55,15 @@ public class Registry {
 
     // General Practitioner (GMP) number
     public static string Uk_identifier_GMP_NUMBER = "https://fhir.hl7.org.uk/Id/gmp-number";
+
+    // General Dental Council (GDC) number
+    public static string Uk_identifier_GDC_NUMBER = "https://fhir.hl7.org.uk/Id/gdc-number";
+
+    // Nursing and Midwifery Council (NMC) number
+    public static string Uk_identifier_NMC_NUMBER = "https://fhir.hl7.org.uk/Id/nmc-number";
+
+    // Health and Care Professions Council (HCPC) number
+    public static string Uk_identifier_HCPC_NUMBER = "https://fhir.hl7.org.uk/Id/hcpc-number";
 
     // General National Codes
     public static string Uk_identifier_GNC_CODE = "https://fhir.hl7.org.uk/Id/gnc-codes";

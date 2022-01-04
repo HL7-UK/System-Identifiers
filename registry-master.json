@@ -100,6 +100,21 @@
           "description": "General Practitioner (GMP) number"
         },
         {
+          "name": "GDC_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/gdc-number",
+          "description": "General Dental Council (GDC) number"
+        },
+        {
+          "name": "NMC_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/nmc-number",
+          "description": "Nursing and Midwifery Council (NMC) number"
+        },
+        {
+          "name": "HCPC_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/hcpc-number",
+          "description": "Health and Care Professions Council (HCPC) number"
+        },
+        {
           "name": "GNC_CODE",
           "url": "https://fhir.hl7.org.uk/Id/gnc-codes",
           "description": "General National Codes"
