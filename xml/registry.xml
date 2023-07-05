@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK -->
-<!-- Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time) -->
+<!-- Generated Wed Jul 05 2023 10:52:37 GMT+0100 (British Summer Time) -->
 <Registry>
     <Domain name="International">
         <Terminology name="SNOMED_CT" url="http://snomed.info/sct" description="SNOMED CT" />
@@ -23,6 +23,7 @@
         <Identifier name="HCPC_NUMBER" url="https://fhir.hl7.org.uk/Id/hcpc-number" description="Health and Care Professions Council (HCPC) number" />
         <Identifier name="GNC_CODE" url="https://fhir.hl7.org.uk/Id/gnc-codes" description="General National Codes" />
         <Identifier name="SCHOOL_NUMBER" url="https://fhir.hl7.org.uk/Id/urn-school-number" description="Department for Education School number" />
+        <Identifier name="PPA_NUMBER" url="https://fhir.hl7.org.uk/Id/ppa-number" description="Prescription Pricing Authority (PPA) number" />
     </Domain>
     <Domain name="Nhs">
         <Identifier name="NHS_NUMBER" url="https://fhir.nhs.uk/Id/nhs-number" description="The NHS Number identifier for a patient" />

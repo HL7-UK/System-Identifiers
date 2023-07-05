@@ -77,6 +77,10 @@ var transform = [
     {
         template: __dirname + '/templates/fhir/stu3/registry.json.template',
         output: __dirname + '/../fhir/stu3/registry.json'
+    },
+    {
+        template: __dirname + '/templates/fsh/registry.fsh.template',
+        output: __dirname + '/../fsh/registry.fsh'
     }
 ];
 

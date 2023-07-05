@@ -1,0 +1,16 @@
+// {{meta.name}}, {{meta.copyright}}
+// Generated {{meta.date}}
+{{#domain}}
+{{#terminology}}
+// {{description}}
+ Alias: {{../name}}-term-{{name}} = {{{url}}}
+
+{{/terminology}}
+{{#identifier}}
+// {{description}}
+Alias: {{../name}}-id-{{name}} = {{{url}}}
+
+{{/identifier}}
+{{/domain}}
+
+// hl7uk-fhir-registry.fsh, {{meta.copyright}}

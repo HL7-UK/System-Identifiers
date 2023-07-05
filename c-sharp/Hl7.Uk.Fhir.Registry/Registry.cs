@@ -1,5 +1,5 @@
 // HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-// Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time)
+// Generated Wed Jul 05 2023 10:52:37 GMT+0100 (British Summer Time)
 namespace Hl7.Uk.Fhir.Registry
 {
     public static class Registry
@@ -141,6 +141,11 @@ namespace Hl7.Uk.Fhir.Registry
                /// Department for Education School number
                 /// </summary>
                 public const string SCHOOL_NUMBER = "https://fhir.hl7.org.uk/Id/urn-school-number";
+
+                /// <summary>
+               /// Prescription Pricing Authority (PPA) number
+                /// </summary>
+                public const string PPA_NUMBER = "https://fhir.hl7.org.uk/Id/ppa-number";
 
                 
             }

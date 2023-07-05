@@ -123,6 +123,11 @@
           "name": "SCHOOL_NUMBER",
           "url": "https://fhir.hl7.org.uk/Id/urn-school-number",
           "description": "Department for Education School number"
+        },
+        {
+          "name": "PPA_NUMBER",
+          "url": "https://fhir.hl7.org.uk/Id/ppa-number",
+          "description": "Prescription Pricing Authority (PPA) number"
         }
       ]
     },

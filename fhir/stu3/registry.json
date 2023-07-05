@@ -239,6 +239,19 @@
         {
             "resource": {
                 "resourceType": "NamingSystem",
+                "name": "PPA_NUMBER",
+                "status": "active",
+                "kind": "identifier",
+                "description": "Prescription Pricing Authority (PPA) number",
+                "uniqueId": {
+                    "type": "uri",
+                    "value": "https://fhir.hl7.org.uk/Id/ppa-number"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "NamingSystem",
                 "name": "NHS_NUMBER",
                 "status": "active",
                 "kind": "identifier",

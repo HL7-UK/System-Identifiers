@@ -54,6 +54,7 @@ https://fhir.hl7.org.uk/Id/nmc-number | Nursing and Midwifery Council (NMC) numb
 https://fhir.hl7.org.uk/Id/hcpc-number | Health and Care Professions Council (HCPC) number | HCPC_NUMBER
 https://fhir.hl7.org.uk/Id/gnc-codes | General National Codes | GNC_CODE
 https://fhir.hl7.org.uk/Id/urn-school-number | Department for Education School number | SCHOOL_NUMBER
+https://fhir.hl7.org.uk/Id/ppa-number | Prescription Pricing Authority (PPA) number | PPA_NUMBER
 
 ## Nhs
 ### Terminology systems
@@ -102,4 +103,4 @@ HL7 and FHIR are registered trademarks of Health Level Seven International
 ## Acknowledgements
 Supported by [Black Pear Software](https://www.blackpear.com)
 
--- Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time)
+-- Generated Wed Jul 05 2023 10:52:37 GMT+0100 (British Summer Time)

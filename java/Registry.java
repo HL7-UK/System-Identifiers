@@ -2,7 +2,7 @@ package uk.org.hl7.fhir.registry;
 
 /**
 * HL7 UK FHIR Registry, Copyright © 2016+ HL7 UK
-* Generated Tue Jan 04 2022 16:58:59 GMT+0000 (Greenwich Mean Time)
+* Generated Wed Jul 05 2023 10:52:37 GMT+0100 (British Summer Time)
 */
 public class Registry {
     // DSTU 1 (Official version) with 2 technical errata
@@ -70,6 +70,9 @@ public class Registry {
 
     // Department for Education School number
     public static string Uk_identifier_SCHOOL_NUMBER = "https://fhir.hl7.org.uk/Id/urn-school-number";
+
+    // Prescription Pricing Authority (PPA) number
+    public static string Uk_identifier_PPA_NUMBER = "https://fhir.hl7.org.uk/Id/ppa-number";
 
     // The NHS Number identifier for a patient
     public static string Nhs_identifier_NHS_NUMBER = "https://fhir.nhs.uk/Id/nhs-number";
